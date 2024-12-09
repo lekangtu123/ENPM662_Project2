@@ -1,0 +1,322 @@
+[0.642s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.643s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fdf4ac52e20>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fdf4ac52e20>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fdf4acc44f0>)
+[0.984s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.984s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.984s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.984s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.984s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.984s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.984s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/leoo/Desktop/project2_ws'
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/odometry) by extensions ['ignore', 'ignore_ament_install']
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/odometry) by extension 'ignore'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/odometry) by extension 'ignore_ament_install'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/odometry) by extensions ['colcon_pkg']
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/odometry) by extension 'colcon_pkg'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/odometry) by extensions ['colcon_meta']
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/odometry) by extension 'colcon_meta'
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/odometry) by extensions ['ros']
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/odometry) by extension 'ros'
+[1.032s] DEBUG:colcon.colcon_core.package_identification:Package 'src/odometry' with type 'ros.ament_cmake' and name 'odometry'
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/project2_control) by extensions ['ignore', 'ignore_ament_install']
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/project2_control) by extension 'ignore'
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/project2_control) by extension 'ignore_ament_install'
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/project2_control) by extensions ['colcon_pkg']
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/project2_control) by extension 'colcon_pkg'
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/project2_control) by extensions ['colcon_meta']
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/project2_control) by extension 'colcon_meta'
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/project2_control) by extensions ['ros']
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/project2_control) by extension 'ros'
+[1.033s] DEBUG:colcon.colcon_core.package_identification:Package 'src/project2_control' with type 'ros.ament_python' and name 'project2_control'
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/project2_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/project2_pkg) by extension 'ignore'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/project2_pkg) by extension 'ignore_ament_install'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/project2_pkg) by extensions ['colcon_pkg']
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/project2_pkg) by extension 'colcon_pkg'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/project2_pkg) by extensions ['colcon_meta']
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/project2_pkg) by extension 'colcon_meta'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/project2_pkg) by extensions ['ros']
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/project2_pkg) by extension 'ros'
+[1.035s] DEBUG:colcon.colcon_core.package_identification:Package 'src/project2_pkg' with type 'ros.ament_cmake' and name 'project2_pkg'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_control) by extensions ['ignore', 'ignore_ament_install']
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_control) by extension 'ignore'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_control) by extension 'ignore_ament_install'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_control) by extensions ['colcon_pkg']
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_control) by extension 'colcon_pkg'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_control) by extensions ['colcon_meta']
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_control) by extension 'colcon_meta'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_control) by extensions ['ros']
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_control) by extension 'ros'
+[1.037s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_arm_control' with type 'ros.ament_python' and name 'robot_arm_control'
+[1.037s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.037s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.037s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.037s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.037s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.078s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.078s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.082s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/leoo/Desktop/project2_ws/install/robot_arm_control' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.082s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/leoo/Desktop/project2_ws/install/project2_pkg' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.082s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/leoo/Desktop/project2_ws/install/project2_control' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.082s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/leoo/Desktop/project2_ws/install/odometry' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.082s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/leoo/Desktop/project2_ws/install/project2_pkg' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.084s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/leoo/Desktop/project2_ws/install
+[1.087s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 355 installed packages in /opt/ros/galactic
+[1.090s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.344s] Level 5:colcon.colcon_core.verb:set package 'odometry' build argument 'cmake_args' from command line to 'None'
+[1.344s] Level 5:colcon.colcon_core.verb:set package 'odometry' build argument 'cmake_target' from command line to 'None'
+[1.344s] Level 5:colcon.colcon_core.verb:set package 'odometry' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.344s] Level 5:colcon.colcon_core.verb:set package 'odometry' build argument 'cmake_clean_cache' from command line to 'False'
+[1.344s] Level 5:colcon.colcon_core.verb:set package 'odometry' build argument 'cmake_clean_first' from command line to 'False'
+[1.344s] Level 5:colcon.colcon_core.verb:set package 'odometry' build argument 'cmake_force_configure' from command line to 'False'
+[1.344s] Level 5:colcon.colcon_core.verb:set package 'odometry' build argument 'ament_cmake_args' from command line to 'None'
+[1.344s] Level 5:colcon.colcon_core.verb:set package 'odometry' build argument 'catkin_cmake_args' from command line to 'None'
+[1.344s] Level 5:colcon.colcon_core.verb:set package 'odometry' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.344s] DEBUG:colcon.colcon_core.verb:Building package 'odometry' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leoo/Desktop/project2_ws/build/odometry', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leoo/Desktop/project2_ws/install/odometry', 'merge_install': False, 'path': '/home/leoo/Desktop/project2_ws/src/odometry', 'symlink_install': False, 'test_result_base': None}
+[1.345s] Level 5:colcon.colcon_core.verb:set package 'project2_control' build argument 'cmake_args' from command line to 'None'
+[1.345s] Level 5:colcon.colcon_core.verb:set package 'project2_control' build argument 'cmake_target' from command line to 'None'
+[1.345s] Level 5:colcon.colcon_core.verb:set package 'project2_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.345s] Level 5:colcon.colcon_core.verb:set package 'project2_control' build argument 'cmake_clean_cache' from command line to 'False'
+[1.345s] Level 5:colcon.colcon_core.verb:set package 'project2_control' build argument 'cmake_clean_first' from command line to 'False'
+[1.345s] Level 5:colcon.colcon_core.verb:set package 'project2_control' build argument 'cmake_force_configure' from command line to 'False'
+[1.345s] Level 5:colcon.colcon_core.verb:set package 'project2_control' build argument 'ament_cmake_args' from command line to 'None'
+[1.345s] Level 5:colcon.colcon_core.verb:set package 'project2_control' build argument 'catkin_cmake_args' from command line to 'None'
+[1.345s] Level 5:colcon.colcon_core.verb:set package 'project2_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.345s] DEBUG:colcon.colcon_core.verb:Building package 'project2_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leoo/Desktop/project2_ws/build/project2_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leoo/Desktop/project2_ws/install/project2_control', 'merge_install': False, 'path': '/home/leoo/Desktop/project2_ws/src/project2_control', 'symlink_install': False, 'test_result_base': None}
+[1.345s] Level 5:colcon.colcon_core.verb:set package 'project2_pkg' build argument 'cmake_args' from command line to 'None'
+[1.345s] Level 5:colcon.colcon_core.verb:set package 'project2_pkg' build argument 'cmake_target' from command line to 'None'
+[1.345s] Level 5:colcon.colcon_core.verb:set package 'project2_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.345s] Level 5:colcon.colcon_core.verb:set package 'project2_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.345s] Level 5:colcon.colcon_core.verb:set package 'project2_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.345s] Level 5:colcon.colcon_core.verb:set package 'project2_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.345s] Level 5:colcon.colcon_core.verb:set package 'project2_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.345s] Level 5:colcon.colcon_core.verb:set package 'project2_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.345s] Level 5:colcon.colcon_core.verb:set package 'project2_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.345s] DEBUG:colcon.colcon_core.verb:Building package 'project2_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leoo/Desktop/project2_ws/build/project2_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leoo/Desktop/project2_ws/install/project2_pkg', 'merge_install': False, 'path': '/home/leoo/Desktop/project2_ws/src/project2_pkg', 'symlink_install': False, 'test_result_base': None}
+[1.346s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_control' build argument 'cmake_args' from command line to 'None'
+[1.346s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_control' build argument 'cmake_target' from command line to 'None'
+[1.346s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.346s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_control' build argument 'cmake_clean_cache' from command line to 'False'
+[1.346s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_control' build argument 'cmake_clean_first' from command line to 'False'
+[1.346s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_control' build argument 'cmake_force_configure' from command line to 'False'
+[1.346s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_control' build argument 'ament_cmake_args' from command line to 'None'
+[1.346s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_control' build argument 'catkin_cmake_args' from command line to 'None'
+[1.346s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.346s] DEBUG:colcon.colcon_core.verb:Building package 'robot_arm_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leoo/Desktop/project2_ws/build/robot_arm_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leoo/Desktop/project2_ws/install/robot_arm_control', 'merge_install': False, 'path': '/home/leoo/Desktop/project2_ws/src/robot_arm_control', 'symlink_install': False, 'test_result_base': None}
+[1.346s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.348s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.348s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leoo/Desktop/project2_ws/src/odometry' with build type 'ament_cmake'
+[1.349s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leoo/Desktop/project2_ws/src/odometry'
+[1.354s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.355s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.355s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.360s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/leoo/Desktop/project2_ws/src/project2_control' with build type 'ament_python'
+[1.361s] Level 1:colcon.colcon_core.shell:create_environment_hook('project2_control', 'ament_prefix_path')
+[1.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoo/Desktop/project2_ws/install/project2_control/share/project2_control/hook/ament_prefix_path.ps1'
+[1.364s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoo/Desktop/project2_ws/install/project2_control/share/project2_control/hook/ament_prefix_path.dsv'
+[1.365s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoo/Desktop/project2_ws/install/project2_control/share/project2_control/hook/ament_prefix_path.sh'
+[1.366s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.366s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.372s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leoo/Desktop/project2_ws/src/project2_pkg' with build type 'ament_cmake'
+[1.372s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leoo/Desktop/project2_ws/src/project2_pkg'
+[1.373s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.373s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.381s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/leoo/Desktop/project2_ws/src/robot_arm_control' with build type 'ament_python'
+[1.381s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_arm_control', 'ament_prefix_path')
+[1.382s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoo/Desktop/project2_ws/install/robot_arm_control/share/robot_arm_control/hook/ament_prefix_path.ps1'
+[1.383s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoo/Desktop/project2_ws/install/robot_arm_control/share/robot_arm_control/hook/ament_prefix_path.dsv'
+[1.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoo/Desktop/project2_ws/install/robot_arm_control/share/robot_arm_control/hook/ament_prefix_path.sh'
+[1.384s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.384s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.396s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leoo/Desktop/project2_ws/build/odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoo/Desktop/project2_ws/install/robot_arm_control:/home/leoo/Desktop/project2_ws/install/project2_control:/home/leoo/Desktop/project2_ws/install/odometry:/opt/ros/galactic /home/leoo/.local/bin/cmake /home/leoo/Desktop/project2_ws/src/odometry -DCMAKE_INSTALL_PREFIX=/home/leoo/Desktop/project2_ws/install/odometry
+[1.900s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/leoo/Desktop/project2_ws/src/project2_control'
+[1.900s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.900s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.915s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leoo/Desktop/project2_ws/build/project2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoo/Desktop/project2_ws/install/robot_arm_control:/home/leoo/Desktop/project2_ws/install/project2_control:/home/leoo/Desktop/project2_ws/install/odometry:/opt/ros/galactic /home/leoo/.local/bin/cmake /home/leoo/Desktop/project2_ws/src/project2_pkg -DCMAKE_INSTALL_PREFIX=/home/leoo/Desktop/project2_ws/install/project2_pkg
+[2.357s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/leoo/Desktop/project2_ws/src/robot_arm_control'
+[2.357s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.357s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.581s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leoo/Desktop/project2_ws/src/robot_arm_control': PYTHONPATH=/home/leoo/Desktop/project2_ws/build/robot_arm_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leoo/Desktop/project2_ws/install/robot_arm_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_arm_control build --build-base /home/leoo/Desktop/project2_ws/build/robot_arm_control/build install --record /home/leoo/Desktop/project2_ws/build/robot_arm_control/install.log --single-version-externally-managed install_data
+[3.593s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leoo/Desktop/project2_ws/src/project2_control': PYTHONPATH=/home/leoo/Desktop/project2_ws/build/project2_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leoo/Desktop/project2_ws/install/project2_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/project2_control build --build-base /home/leoo/Desktop/project2_ws/build/project2_control/build install --record /home/leoo/Desktop/project2_ws/build/project2_control/install.log --single-version-externally-managed install_data
+[4.169s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leoo/Desktop/project2_ws/src/robot_arm_control' returned '0': PYTHONPATH=/home/leoo/Desktop/project2_ws/build/robot_arm_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leoo/Desktop/project2_ws/install/robot_arm_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_arm_control build --build-base /home/leoo/Desktop/project2_ws/build/robot_arm_control/build install --record /home/leoo/Desktop/project2_ws/build/robot_arm_control/install.log --single-version-externally-managed install_data
+[4.177s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Desktop/project2_ws/install/robot_arm_control' for CMake module files
+[4.177s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Desktop/project2_ws/install/robot_arm_control' for CMake config files
+[4.178s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Desktop/project2_ws/install/robot_arm_control/lib'
+[4.178s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Desktop/project2_ws/install/robot_arm_control/bin'
+[4.178s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Desktop/project2_ws/install/robot_arm_control/lib/pkgconfig/robot_arm_control.pc'
+[4.179s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Desktop/project2_ws/install/robot_arm_control/lib/python3.8/site-packages'
+[4.179s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_arm_control', 'pythonpath')
+[4.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoo/Desktop/project2_ws/install/robot_arm_control/share/robot_arm_control/hook/pythonpath.ps1'
+[4.180s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoo/Desktop/project2_ws/install/robot_arm_control/share/robot_arm_control/hook/pythonpath.dsv'
+[4.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoo/Desktop/project2_ws/install/robot_arm_control/share/robot_arm_control/hook/pythonpath.sh'
+[4.182s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Desktop/project2_ws/install/robot_arm_control/bin'
+[4.182s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_arm_control)
+[4.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoo/Desktop/project2_ws/install/robot_arm_control/share/robot_arm_control/package.ps1'
+[4.184s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leoo/Desktop/project2_ws/install/robot_arm_control/share/robot_arm_control/package.dsv'
+[4.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoo/Desktop/project2_ws/install/robot_arm_control/share/robot_arm_control/package.sh'
+[4.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoo/Desktop/project2_ws/install/robot_arm_control/share/robot_arm_control/package.bash'
+[4.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoo/Desktop/project2_ws/install/robot_arm_control/share/robot_arm_control/package.zsh'
+[4.189s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leoo/Desktop/project2_ws/install/robot_arm_control/share/colcon-core/packages/robot_arm_control)
+[4.191s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Desktop/project2_ws/install/project2_control' for CMake module files
+[4.192s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Desktop/project2_ws/install/project2_control' for CMake config files
+[4.193s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leoo/Desktop/project2_ws/src/project2_control' returned '0': PYTHONPATH=/home/leoo/Desktop/project2_ws/build/project2_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leoo/Desktop/project2_ws/install/project2_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/project2_control build --build-base /home/leoo/Desktop/project2_ws/build/project2_control/build install --record /home/leoo/Desktop/project2_ws/build/project2_control/install.log --single-version-externally-managed install_data
+[4.193s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Desktop/project2_ws/install/project2_control/lib'
+[4.193s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Desktop/project2_ws/install/project2_control/bin'
+[4.194s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Desktop/project2_ws/install/project2_control/lib/pkgconfig/project2_control.pc'
+[4.194s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Desktop/project2_ws/install/project2_control/lib/python3.8/site-packages'
+[4.194s] Level 1:colcon.colcon_core.shell:create_environment_hook('project2_control', 'pythonpath')
+[4.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoo/Desktop/project2_ws/install/project2_control/share/project2_control/hook/pythonpath.ps1'
+[4.194s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoo/Desktop/project2_ws/install/project2_control/share/project2_control/hook/pythonpath.dsv'
+[4.195s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoo/Desktop/project2_ws/install/project2_control/share/project2_control/hook/pythonpath.sh'
+[4.196s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Desktop/project2_ws/install/project2_control/bin'
+[4.196s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(project2_control)
+[4.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoo/Desktop/project2_ws/install/project2_control/share/project2_control/package.ps1'
+[4.197s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leoo/Desktop/project2_ws/install/project2_control/share/project2_control/package.dsv'
+[4.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoo/Desktop/project2_ws/install/project2_control/share/project2_control/package.sh'
+[4.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoo/Desktop/project2_ws/install/project2_control/share/project2_control/package.bash'
+[4.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoo/Desktop/project2_ws/install/project2_control/share/project2_control/package.zsh'
+[4.200s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leoo/Desktop/project2_ws/install/project2_control/share/colcon-core/packages/project2_control)
+[5.837s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leoo/Desktop/project2_ws/build/project2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoo/Desktop/project2_ws/install/robot_arm_control:/home/leoo/Desktop/project2_ws/install/project2_control:/home/leoo/Desktop/project2_ws/install/odometry:/opt/ros/galactic /home/leoo/.local/bin/cmake /home/leoo/Desktop/project2_ws/src/project2_pkg -DCMAKE_INSTALL_PREFIX=/home/leoo/Desktop/project2_ws/install/project2_pkg
+[5.841s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leoo/Desktop/project2_ws/build/project2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoo/Desktop/project2_ws/install/robot_arm_control:/home/leoo/Desktop/project2_ws/install/project2_control:/home/leoo/Desktop/project2_ws/install/odometry:/opt/ros/galactic /home/leoo/.local/bin/cmake --build /home/leoo/Desktop/project2_ws/build/project2_pkg -- -j8 -l8
+[5.946s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leoo/Desktop/project2_ws/build/project2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoo/Desktop/project2_ws/install/robot_arm_control:/home/leoo/Desktop/project2_ws/install/project2_control:/home/leoo/Desktop/project2_ws/install/odometry:/opt/ros/galactic /home/leoo/.local/bin/cmake --build /home/leoo/Desktop/project2_ws/build/project2_pkg -- -j8 -l8
+[6.130s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leoo/Desktop/project2_ws/build/project2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoo/Desktop/project2_ws/install/robot_arm_control:/home/leoo/Desktop/project2_ws/install/project2_control:/home/leoo/Desktop/project2_ws/install/odometry:/opt/ros/galactic /home/leoo/.local/bin/cmake --install /home/leoo/Desktop/project2_ws/build/project2_pkg
+[6.209s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(project2_pkg)
+[6.209s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Desktop/project2_ws/install/project2_pkg' for CMake module files
+[6.210s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leoo/Desktop/project2_ws/build/project2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoo/Desktop/project2_ws/install/robot_arm_control:/home/leoo/Desktop/project2_ws/install/project2_control:/home/leoo/Desktop/project2_ws/install/odometry:/opt/ros/galactic /home/leoo/.local/bin/cmake --install /home/leoo/Desktop/project2_ws/build/project2_pkg
+[6.210s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Desktop/project2_ws/install/project2_pkg' for CMake config files
+[6.211s] Level 1:colcon.colcon_core.shell:create_environment_hook('project2_pkg', 'cmake_prefix_path')
+[6.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg/hook/cmake_prefix_path.ps1'
+[6.212s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg/hook/cmake_prefix_path.dsv'
+[6.212s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg/hook/cmake_prefix_path.sh'
+[6.212s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Desktop/project2_ws/install/project2_pkg/lib'
+[6.213s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Desktop/project2_ws/install/project2_pkg/bin'
+[6.213s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Desktop/project2_ws/install/project2_pkg/lib/pkgconfig/project2_pkg.pc'
+[6.213s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Desktop/project2_ws/install/project2_pkg/lib/python3.8/site-packages'
+[6.213s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Desktop/project2_ws/install/project2_pkg/bin'
+[6.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg/package.ps1'
+[6.214s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg/package.dsv'
+[6.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg/package.sh'
+[6.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg/package.bash'
+[6.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg/package.zsh'
+[6.215s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leoo/Desktop/project2_ws/install/project2_pkg/share/colcon-core/packages/project2_pkg)
+[6.300s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(project2_pkg)
+[6.300s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Desktop/project2_ws/install/project2_pkg' for CMake module files
+[6.301s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Desktop/project2_ws/install/project2_pkg' for CMake config files
+[6.301s] Level 1:colcon.colcon_core.shell:create_environment_hook('project2_pkg', 'cmake_prefix_path')
+[6.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg/hook/cmake_prefix_path.ps1'
+[6.302s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg/hook/cmake_prefix_path.dsv'
+[6.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg/hook/cmake_prefix_path.sh'
+[6.304s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Desktop/project2_ws/install/project2_pkg/lib'
+[6.305s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Desktop/project2_ws/install/project2_pkg/bin'
+[6.305s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Desktop/project2_ws/install/project2_pkg/lib/pkgconfig/project2_pkg.pc'
+[6.305s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Desktop/project2_ws/install/project2_pkg/lib/python3.8/site-packages'
+[6.305s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Desktop/project2_ws/install/project2_pkg/bin'
+[6.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg/package.ps1'
+[6.307s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg/package.dsv'
+[6.307s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg/package.sh'
+[6.308s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg/package.bash'
+[6.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg/package.zsh'
+[6.310s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leoo/Desktop/project2_ws/install/project2_pkg/share/colcon-core/packages/project2_pkg)
+[7.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leoo/Desktop/project2_ws/build/odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoo/Desktop/project2_ws/install/robot_arm_control:/home/leoo/Desktop/project2_ws/install/project2_control:/home/leoo/Desktop/project2_ws/install/odometry:/opt/ros/galactic /home/leoo/.local/bin/cmake /home/leoo/Desktop/project2_ws/src/odometry -DCMAKE_INSTALL_PREFIX=/home/leoo/Desktop/project2_ws/install/odometry
+[7.460s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leoo/Desktop/project2_ws/build/odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoo/Desktop/project2_ws/install/robot_arm_control:/home/leoo/Desktop/project2_ws/install/project2_control:/home/leoo/Desktop/project2_ws/install/odometry:/opt/ros/galactic /home/leoo/.local/bin/cmake --build /home/leoo/Desktop/project2_ws/build/odometry -- -j8 -l8
+[30.993s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leoo/Desktop/project2_ws/build/odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoo/Desktop/project2_ws/install/robot_arm_control:/home/leoo/Desktop/project2_ws/install/project2_control:/home/leoo/Desktop/project2_ws/install/odometry:/opt/ros/galactic /home/leoo/.local/bin/cmake --build /home/leoo/Desktop/project2_ws/build/odometry -- -j8 -l8
+[31.100s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leoo/Desktop/project2_ws/build/odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoo/Desktop/project2_ws/install/robot_arm_control:/home/leoo/Desktop/project2_ws/install/project2_control:/home/leoo/Desktop/project2_ws/install/odometry:/opt/ros/galactic /home/leoo/.local/bin/cmake --install /home/leoo/Desktop/project2_ws/build/odometry
+[31.174s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odometry)
+[31.175s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Desktop/project2_ws/install/odometry' for CMake module files
+[31.176s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leoo/Desktop/project2_ws/build/odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoo/Desktop/project2_ws/install/robot_arm_control:/home/leoo/Desktop/project2_ws/install/project2_control:/home/leoo/Desktop/project2_ws/install/odometry:/opt/ros/galactic /home/leoo/.local/bin/cmake --install /home/leoo/Desktop/project2_ws/build/odometry
+[31.177s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Desktop/project2_ws/install/odometry' for CMake config files
+[31.177s] Level 1:colcon.colcon_core.shell:create_environment_hook('odometry', 'cmake_prefix_path')
+[31.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoo/Desktop/project2_ws/install/odometry/share/odometry/hook/cmake_prefix_path.ps1'
+[31.178s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoo/Desktop/project2_ws/install/odometry/share/odometry/hook/cmake_prefix_path.dsv'
+[31.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoo/Desktop/project2_ws/install/odometry/share/odometry/hook/cmake_prefix_path.sh'
+[31.179s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Desktop/project2_ws/install/odometry/lib'
+[31.180s] Level 1:colcon.colcon_core.shell:create_environment_hook('odometry', 'ld_library_path_lib')
+[31.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoo/Desktop/project2_ws/install/odometry/share/odometry/hook/ld_library_path_lib.ps1'
+[31.180s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoo/Desktop/project2_ws/install/odometry/share/odometry/hook/ld_library_path_lib.dsv'
+[31.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoo/Desktop/project2_ws/install/odometry/share/odometry/hook/ld_library_path_lib.sh'
+[31.181s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Desktop/project2_ws/install/odometry/bin'
+[31.181s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Desktop/project2_ws/install/odometry/lib/pkgconfig/odometry.pc'
+[31.181s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Desktop/project2_ws/install/odometry/lib/python3.8/site-packages'
+[31.181s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Desktop/project2_ws/install/odometry/bin'
+[31.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoo/Desktop/project2_ws/install/odometry/share/odometry/package.ps1'
+[31.182s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leoo/Desktop/project2_ws/install/odometry/share/odometry/package.dsv'
+[31.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoo/Desktop/project2_ws/install/odometry/share/odometry/package.sh'
+[31.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoo/Desktop/project2_ws/install/odometry/share/odometry/package.bash'
+[31.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoo/Desktop/project2_ws/install/odometry/share/odometry/package.zsh'
+[31.184s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leoo/Desktop/project2_ws/install/odometry/share/colcon-core/packages/odometry)
+[31.273s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odometry)
+[31.273s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Desktop/project2_ws/install/odometry' for CMake module files
+[31.273s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Desktop/project2_ws/install/odometry' for CMake config files
+[31.274s] Level 1:colcon.colcon_core.shell:create_environment_hook('odometry', 'cmake_prefix_path')
+[31.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoo/Desktop/project2_ws/install/odometry/share/odometry/hook/cmake_prefix_path.ps1'
+[31.274s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoo/Desktop/project2_ws/install/odometry/share/odometry/hook/cmake_prefix_path.dsv'
+[31.275s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoo/Desktop/project2_ws/install/odometry/share/odometry/hook/cmake_prefix_path.sh'
+[31.276s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Desktop/project2_ws/install/odometry/lib'
+[31.276s] Level 1:colcon.colcon_core.shell:create_environment_hook('odometry', 'ld_library_path_lib')
+[31.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoo/Desktop/project2_ws/install/odometry/share/odometry/hook/ld_library_path_lib.ps1'
+[31.277s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoo/Desktop/project2_ws/install/odometry/share/odometry/hook/ld_library_path_lib.dsv'
+[31.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoo/Desktop/project2_ws/install/odometry/share/odometry/hook/ld_library_path_lib.sh'
+[31.278s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Desktop/project2_ws/install/odometry/bin'
+[31.278s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Desktop/project2_ws/install/odometry/lib/pkgconfig/odometry.pc'
+[31.278s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Desktop/project2_ws/install/odometry/lib/python3.8/site-packages'
+[31.278s] Level 1:colcon.colcon_core.environment:checking '/home/leoo/Desktop/project2_ws/install/odometry/bin'
+[31.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoo/Desktop/project2_ws/install/odometry/share/odometry/package.ps1'
+[31.279s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leoo/Desktop/project2_ws/install/odometry/share/odometry/package.dsv'
+[31.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoo/Desktop/project2_ws/install/odometry/share/odometry/package.sh'
+[31.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoo/Desktop/project2_ws/install/odometry/share/odometry/package.bash'
+[31.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoo/Desktop/project2_ws/install/odometry/share/odometry/package.zsh'
+[31.282s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leoo/Desktop/project2_ws/install/odometry/share/colcon-core/packages/odometry)
+[31.282s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[31.283s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[31.284s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[31.284s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[31.300s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[31.300s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[31.301s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[31.385s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[31.385s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leoo/Desktop/project2_ws/install/local_setup.ps1'
+[31.387s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/leoo/Desktop/project2_ws/install/_local_setup_util_ps1.py'
+[31.389s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leoo/Desktop/project2_ws/install/setup.ps1'
+[31.390s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leoo/Desktop/project2_ws/install/local_setup.sh'
+[31.392s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/leoo/Desktop/project2_ws/install/_local_setup_util_sh.py'
+[31.393s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leoo/Desktop/project2_ws/install/setup.sh'
+[31.400s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leoo/Desktop/project2_ws/install/local_setup.bash'
+[31.402s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leoo/Desktop/project2_ws/install/setup.bash'
+[31.404s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leoo/Desktop/project2_ws/install/local_setup.zsh'
+[31.406s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leoo/Desktop/project2_ws/install/setup.zsh'

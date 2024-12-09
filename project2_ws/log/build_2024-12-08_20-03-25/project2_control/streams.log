@@ -1,0 +1,37 @@
+[2.232s] Invoking command in '/home/leoo/Desktop/project2_ws/src/project2_control': PYTHONPATH=/home/leoo/Desktop/project2_ws/build/project2_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leoo/Desktop/project2_ws/install/project2_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/project2_control build --build-base /home/leoo/Desktop/project2_ws/build/project2_control/build install --record /home/leoo/Desktop/project2_ws/build/project2_control/install.log --single-version-externally-managed install_data
+[2.691s] running egg_info
+[2.691s] creating ../../build/project2_control/project2_control.egg-info
+[2.692s] writing ../../build/project2_control/project2_control.egg-info/PKG-INFO
+[2.692s] writing dependency_links to ../../build/project2_control/project2_control.egg-info/dependency_links.txt
+[2.692s] writing entry points to ../../build/project2_control/project2_control.egg-info/entry_points.txt
+[2.692s] writing requirements to ../../build/project2_control/project2_control.egg-info/requires.txt
+[2.692s] writing top-level names to ../../build/project2_control/project2_control.egg-info/top_level.txt
+[2.694s] writing manifest file '../../build/project2_control/project2_control.egg-info/SOURCES.txt'
+[2.727s] reading manifest file '../../build/project2_control/project2_control.egg-info/SOURCES.txt'
+[2.728s] writing manifest file '../../build/project2_control/project2_control.egg-info/SOURCES.txt'
+[2.729s] running build
+[2.729s] running build_py
+[2.729s] creating /home/leoo/Desktop/project2_ws/build/project2_control/build
+[2.729s] creating /home/leoo/Desktop/project2_ws/build/project2_control/build/lib
+[2.729s] creating /home/leoo/Desktop/project2_ws/build/project2_control/build/lib/project2_control
+[2.729s] copying project2_control/__init__.py -> /home/leoo/Desktop/project2_ws/build/project2_control/build/lib/project2_control
+[2.730s] copying project2_control/project2_teleop_control.py -> /home/leoo/Desktop/project2_ws/build/project2_control/build/lib/project2_control
+[2.730s] running install
+[2.731s] running install_lib
+[2.733s] creating /home/leoo/Desktop/project2_ws/install/project2_control/lib/python3.8/site-packages/project2_control
+[2.733s] copying /home/leoo/Desktop/project2_ws/build/project2_control/build/lib/project2_control/__init__.py -> /home/leoo/Desktop/project2_ws/install/project2_control/lib/python3.8/site-packages/project2_control
+[2.733s] copying /home/leoo/Desktop/project2_ws/build/project2_control/build/lib/project2_control/project2_teleop_control.py -> /home/leoo/Desktop/project2_ws/install/project2_control/lib/python3.8/site-packages/project2_control
+[2.734s] byte-compiling /home/leoo/Desktop/project2_ws/install/project2_control/lib/python3.8/site-packages/project2_control/__init__.py to __init__.cpython-38.pyc
+[2.736s] byte-compiling /home/leoo/Desktop/project2_ws/install/project2_control/lib/python3.8/site-packages/project2_control/project2_teleop_control.py to project2_teleop_control.cpython-38.pyc
+[2.738s] running install_data
+[2.738s] creating /home/leoo/Desktop/project2_ws/install/project2_control/share/ament_index
+[2.739s] creating /home/leoo/Desktop/project2_ws/install/project2_control/share/ament_index/resource_index
+[2.739s] creating /home/leoo/Desktop/project2_ws/install/project2_control/share/ament_index/resource_index/packages
+[2.739s] copying resource/project2_control -> /home/leoo/Desktop/project2_ws/install/project2_control/share/ament_index/resource_index/packages
+[2.739s] copying package.xml -> /home/leoo/Desktop/project2_ws/install/project2_control/share/project2_control
+[2.739s] running install_egg_info
+[2.742s] Copying ../../build/project2_control/project2_control.egg-info to /home/leoo/Desktop/project2_ws/install/project2_control/lib/python3.8/site-packages/project2_control-0.0.0-py3.8.egg-info
+[2.744s] running install_scripts
+[2.776s] Installing project2_teleop_control script to /home/leoo/Desktop/project2_ws/install/project2_control/lib/project2_control
+[2.777s] writing list of installed files to '/home/leoo/Desktop/project2_ws/build/project2_control/install.log'
+[2.831s] Invoked command in '/home/leoo/Desktop/project2_ws/src/project2_control' returned '0': PYTHONPATH=/home/leoo/Desktop/project2_ws/build/project2_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leoo/Desktop/project2_ws/install/project2_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/project2_control build --build-base /home/leoo/Desktop/project2_ws/build/project2_control/build install --record /home/leoo/Desktop/project2_ws/build/project2_control/install.log --single-version-externally-managed install_data

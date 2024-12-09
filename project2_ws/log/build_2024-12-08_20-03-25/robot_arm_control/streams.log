@@ -1,0 +1,45 @@
+[2.200s] Invoking command in '/home/leoo/Desktop/project2_ws/src/robot_arm_control': PYTHONPATH=/home/leoo/Desktop/project2_ws/build/robot_arm_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leoo/Desktop/project2_ws/install/robot_arm_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_arm_control build --build-base /home/leoo/Desktop/project2_ws/build/robot_arm_control/build install --record /home/leoo/Desktop/project2_ws/build/robot_arm_control/install.log --single-version-externally-managed install_data
+[2.657s] running egg_info
+[2.658s] creating ../../build/robot_arm_control/robot_arm_control.egg-info
+[2.659s] writing ../../build/robot_arm_control/robot_arm_control.egg-info/PKG-INFO
+[2.659s] writing dependency_links to ../../build/robot_arm_control/robot_arm_control.egg-info/dependency_links.txt
+[2.659s] writing entry points to ../../build/robot_arm_control/robot_arm_control.egg-info/entry_points.txt
+[2.659s] writing requirements to ../../build/robot_arm_control/robot_arm_control.egg-info/requires.txt
+[2.659s] writing top-level names to ../../build/robot_arm_control/robot_arm_control.egg-info/top_level.txt
+[2.664s] writing manifest file '../../build/robot_arm_control/robot_arm_control.egg-info/SOURCES.txt'
+[2.698s] reading manifest file '../../build/robot_arm_control/robot_arm_control.egg-info/SOURCES.txt'
+[2.699s] writing manifest file '../../build/robot_arm_control/robot_arm_control.egg-info/SOURCES.txt'
+[2.699s] running build
+[2.699s] running build_py
+[2.700s] creating /home/leoo/Desktop/project2_ws/build/robot_arm_control/build
+[2.700s] creating /home/leoo/Desktop/project2_ws/build/robot_arm_control/build/lib
+[2.700s] creating /home/leoo/Desktop/project2_ws/build/robot_arm_control/build/lib/robot_arm_control
+[2.700s] copying robot_arm_control/arm_teleop_control.py -> /home/leoo/Desktop/project2_ws/build/robot_arm_control/build/lib/robot_arm_control
+[2.701s] copying robot_arm_control/__init__.py -> /home/leoo/Desktop/project2_ws/build/robot_arm_control/build/lib/robot_arm_control
+[2.701s] copying robot_arm_control/arm_inv_kine_control.py -> /home/leoo/Desktop/project2_ws/build/robot_arm_control/build/lib/robot_arm_control
+[2.701s] copying robot_arm_control/vacuum_gripper.py -> /home/leoo/Desktop/project2_ws/build/robot_arm_control/build/lib/robot_arm_control
+[2.701s] running install
+[2.703s] running install_lib
+[2.704s] creating /home/leoo/Desktop/project2_ws/install/robot_arm_control/lib/python3.8/site-packages/robot_arm_control
+[2.704s] copying /home/leoo/Desktop/project2_ws/build/robot_arm_control/build/lib/robot_arm_control/arm_teleop_control.py -> /home/leoo/Desktop/project2_ws/install/robot_arm_control/lib/python3.8/site-packages/robot_arm_control
+[2.704s] copying /home/leoo/Desktop/project2_ws/build/robot_arm_control/build/lib/robot_arm_control/__init__.py -> /home/leoo/Desktop/project2_ws/install/robot_arm_control/lib/python3.8/site-packages/robot_arm_control
+[2.705s] copying /home/leoo/Desktop/project2_ws/build/robot_arm_control/build/lib/robot_arm_control/arm_inv_kine_control.py -> /home/leoo/Desktop/project2_ws/install/robot_arm_control/lib/python3.8/site-packages/robot_arm_control
+[2.705s] copying /home/leoo/Desktop/project2_ws/build/robot_arm_control/build/lib/robot_arm_control/vacuum_gripper.py -> /home/leoo/Desktop/project2_ws/install/robot_arm_control/lib/python3.8/site-packages/robot_arm_control
+[2.705s] byte-compiling /home/leoo/Desktop/project2_ws/install/robot_arm_control/lib/python3.8/site-packages/robot_arm_control/arm_teleop_control.py to arm_teleop_control.cpython-38.pyc
+[2.706s] byte-compiling /home/leoo/Desktop/project2_ws/install/robot_arm_control/lib/python3.8/site-packages/robot_arm_control/__init__.py to __init__.cpython-38.pyc
+[2.707s] byte-compiling /home/leoo/Desktop/project2_ws/install/robot_arm_control/lib/python3.8/site-packages/robot_arm_control/arm_inv_kine_control.py to arm_inv_kine_control.cpython-38.pyc
+[2.717s] byte-compiling /home/leoo/Desktop/project2_ws/install/robot_arm_control/lib/python3.8/site-packages/robot_arm_control/vacuum_gripper.py to vacuum_gripper.cpython-38.pyc
+[2.717s] running install_data
+[2.717s] creating /home/leoo/Desktop/project2_ws/install/robot_arm_control/share/ament_index
+[2.717s] creating /home/leoo/Desktop/project2_ws/install/robot_arm_control/share/ament_index/resource_index
+[2.718s] creating /home/leoo/Desktop/project2_ws/install/robot_arm_control/share/ament_index/resource_index/packages
+[2.718s] copying resource/robot_arm_control -> /home/leoo/Desktop/project2_ws/install/robot_arm_control/share/ament_index/resource_index/packages
+[2.718s] copying package.xml -> /home/leoo/Desktop/project2_ws/install/robot_arm_control/share/robot_arm_control
+[2.719s] running install_egg_info
+[2.720s] Copying ../../build/robot_arm_control/robot_arm_control.egg-info to /home/leoo/Desktop/project2_ws/install/robot_arm_control/lib/python3.8/site-packages/robot_arm_control-0.0.0-py3.8.egg-info
+[2.720s] running install_scripts
+[2.749s] Installing arm_inv_kine_control script to /home/leoo/Desktop/project2_ws/install/robot_arm_control/lib/robot_arm_control
+[2.749s] Installing arm_teleop_control script to /home/leoo/Desktop/project2_ws/install/robot_arm_control/lib/robot_arm_control
+[2.749s] Installing vacuum_gripper script to /home/leoo/Desktop/project2_ws/install/robot_arm_control/lib/robot_arm_control
+[2.750s] writing list of installed files to '/home/leoo/Desktop/project2_ws/build/robot_arm_control/install.log'
+[2.788s] Invoked command in '/home/leoo/Desktop/project2_ws/src/robot_arm_control' returned '0': PYTHONPATH=/home/leoo/Desktop/project2_ws/build/robot_arm_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leoo/Desktop/project2_ws/install/robot_arm_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_arm_control build --build-base /home/leoo/Desktop/project2_ws/build/robot_arm_control/build install --record /home/leoo/Desktop/project2_ws/build/robot_arm_control/install.log --single-version-externally-managed install_data

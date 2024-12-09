@@ -1,0 +1,737 @@
+[0.000000] (-) TimerEvent: {}
+[0.000208] (odometry) JobQueued: {'identifier': 'odometry', 'dependencies': OrderedDict()}
+[0.000363] (project2_control) JobQueued: {'identifier': 'project2_control', 'dependencies': OrderedDict()}
+[0.000407] (project2_pkg) JobQueued: {'identifier': 'project2_pkg', 'dependencies': OrderedDict()}
+[0.000595] (robot_arm_control) JobQueued: {'identifier': 'robot_arm_control', 'dependencies': OrderedDict()}
+[0.001200] (odometry) JobStarted: {'identifier': 'odometry'}
+[0.013320] (project2_control) JobStarted: {'identifier': 'project2_control'}
+[0.026282] (project2_pkg) JobStarted: {'identifier': 'project2_pkg'}
+[0.033561] (robot_arm_control) JobStarted: {'identifier': 'robot_arm_control'}
+[0.047655] (odometry) JobProgress: {'identifier': 'odometry', 'progress': 'cmake'}
+[0.047965] (odometry) Command: {'cmd': ['/home/leoo/.local/bin/cmake', '/home/leoo/Desktop/project2_ws/src/odometry', '-DCMAKE_INSTALL_PREFIX=/home/leoo/Desktop/project2_ws/install/odometry'], 'cwd': '/home/leoo/Desktop/project2_ws/build/odometry', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'leoo'), ('SSH_AGENT_PID', '1593'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/leoo/Desktop/project2_ws/install/odometry/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/leoo'), ('OLDPWD', '/home/leoo/Desktop/project2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1494'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/leoo/Desktop/project2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'leoo'), ('JOURNAL_STREAM', '8:54817'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'leoo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/leoo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1663,unix/ubuntu:/tmp/.ICE-unix/1663'), ('INVOCATION_ID', '70717aedc2f042d08fee40fa53addfb7'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/046fa0ad_ba7b_4a04_a95b_f8bf25c2a6e4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/leoo/Desktop/project2_ws/install/robot_arm_control:/home/leoo/Desktop/project2_ws/install/project2_pkg:/home/leoo/Desktop/project2_ws/install/project2_control:/home/leoo/Desktop/project2_ws/install/odometry:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/leoo/Desktop/project2_ws/build/odometry'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/leoo/Desktop/project2_ws/install/robot_arm_control/lib/python3.8/site-packages:/home/leoo/Desktop/project2_ws/install/project2_control/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/leoo/Desktop/project2_ws/install/project2_pkg:/home/leoo/Desktop/project2_ws/install/robot_arm_control:/home/leoo/Desktop/project2_ws/install/project2_control:/home/leoo/Desktop/project2_ws/install/odometry:/opt/ros/galactic')]), 'shell': False}
+[0.099871] (-) TimerEvent: {}
+[0.201023] (-) TimerEvent: {}
+[0.301558] (-) TimerEvent: {}
+[0.402120] (-) TimerEvent: {}
+[0.502686] (-) TimerEvent: {}
+[0.562654] (project2_pkg) JobProgress: {'identifier': 'project2_pkg', 'progress': 'cmake'}
+[0.564597] (project2_pkg) Command: {'cmd': ['/home/leoo/.local/bin/cmake', '/home/leoo/Desktop/project2_ws/src/project2_pkg', '-DCMAKE_INSTALL_PREFIX=/home/leoo/Desktop/project2_ws/install/project2_pkg'], 'cwd': '/home/leoo/Desktop/project2_ws/build/project2_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'leoo'), ('SSH_AGENT_PID', '1593'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/leoo/Desktop/project2_ws/install/odometry/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/leoo'), ('OLDPWD', '/home/leoo/Desktop/project2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1494'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/leoo/Desktop/project2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'leoo'), ('JOURNAL_STREAM', '8:54817'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'leoo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/leoo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1663,unix/ubuntu:/tmp/.ICE-unix/1663'), ('INVOCATION_ID', '70717aedc2f042d08fee40fa53addfb7'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/046fa0ad_ba7b_4a04_a95b_f8bf25c2a6e4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/leoo/Desktop/project2_ws/install/robot_arm_control:/home/leoo/Desktop/project2_ws/install/project2_pkg:/home/leoo/Desktop/project2_ws/install/project2_control:/home/leoo/Desktop/project2_ws/install/odometry:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/leoo/Desktop/project2_ws/build/project2_pkg'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/leoo/Desktop/project2_ws/install/robot_arm_control/lib/python3.8/site-packages:/home/leoo/Desktop/project2_ws/install/project2_control/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/leoo/Desktop/project2_ws/install/project2_pkg:/home/leoo/Desktop/project2_ws/install/robot_arm_control:/home/leoo/Desktop/project2_ws/install/project2_control:/home/leoo/Desktop/project2_ws/install/odometry:/opt/ros/galactic')]), 'shell': False}
+[0.602895] (-) TimerEvent: {}
+[0.703649] (-) TimerEvent: {}
+[0.804602] (-) TimerEvent: {}
+[0.905172] (-) TimerEvent: {}
+[1.005768] (-) TimerEvent: {}
+[1.106301] (-) TimerEvent: {}
+[1.166444] (project2_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.178781] (odometry) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.206857] (-) TimerEvent: {}
+[1.307316] (-) TimerEvent: {}
+[1.408107] (-) TimerEvent: {}
+[1.508578] (-) TimerEvent: {}
+[1.609089] (-) TimerEvent: {}
+[1.709420] (-) TimerEvent: {}
+[1.807129] (project2_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.809838] (-) TimerEvent: {}
+[1.842662] (odometry) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.844325] (project2_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.855912] (odometry) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.910197] (-) TimerEvent: {}
+[2.010664] (-) TimerEvent: {}
+[2.050376] (odometry) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.056056] (project2_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.073744] (odometry) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.076865] (odometry) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.079238] (odometry) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.079666] (project2_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.080103] (project2_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.080556] (project2_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.087814] (odometry) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.088107] (project2_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.112066] (-) TimerEvent: {}
+[2.217794] (-) TimerEvent: {}
+[2.231300] (robot_arm_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_arm_control', 'build', '--build-base', '/home/leoo/Desktop/project2_ws/build/robot_arm_control/build', 'install', '--record', '/home/leoo/Desktop/project2_ws/build/robot_arm_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/leoo/Desktop/project2_ws/src/robot_arm_control', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'leoo', 'SSH_AGENT_PID': '1593', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/leoo/Desktop/project2_ws/install/odometry/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib', 'HOME': '/home/leoo', 'OLDPWD': '/home/leoo/Desktop/project2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1494', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/leoo/Desktop/project2_ws/install', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'leoo', 'JOURNAL_STREAM': '8:54817', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'leoo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/galactic/bin:/home/leoo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1663,unix/ubuntu:/tmp/.ICE-unix/1663', 'INVOCATION_ID': '70717aedc2f042d08fee40fa53addfb7', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/046fa0ad_ba7b_4a04_a95b_f8bf25c2a6e4', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.81', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/leoo/Desktop/project2_ws/install/robot_arm_control:/home/leoo/Desktop/project2_ws/install/project2_pkg:/home/leoo/Desktop/project2_ws/install/project2_control:/home/leoo/Desktop/project2_ws/install/odometry:/opt/ros/galactic', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/leoo/Desktop/project2_ws/build/robot_arm_control', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/leoo/Desktop/project2_ws/build/robot_arm_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leoo/Desktop/project2_ws/install/robot_arm_control/lib/python3.8/site-packages:/home/leoo/Desktop/project2_ws/install/robot_arm_control/lib/python3.8/site-packages:/home/leoo/Desktop/project2_ws/install/project2_control/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/leoo/Desktop/project2_ws/install/project2_pkg'}, 'shell': False}
+[2.244786] (project2_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/project2_control', 'build', '--build-base', '/home/leoo/Desktop/project2_ws/build/project2_control/build', 'install', '--record', '/home/leoo/Desktop/project2_ws/build/project2_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/leoo/Desktop/project2_ws/src/project2_control', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'leoo', 'SSH_AGENT_PID': '1593', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/leoo/Desktop/project2_ws/install/odometry/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib', 'HOME': '/home/leoo', 'OLDPWD': '/home/leoo/Desktop/project2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1494', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/leoo/Desktop/project2_ws/install', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'leoo', 'JOURNAL_STREAM': '8:54817', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'leoo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/galactic/bin:/home/leoo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1663,unix/ubuntu:/tmp/.ICE-unix/1663', 'INVOCATION_ID': '70717aedc2f042d08fee40fa53addfb7', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/046fa0ad_ba7b_4a04_a95b_f8bf25c2a6e4', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.81', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/leoo/Desktop/project2_ws/install/robot_arm_control:/home/leoo/Desktop/project2_ws/install/project2_pkg:/home/leoo/Desktop/project2_ws/install/project2_control:/home/leoo/Desktop/project2_ws/install/odometry:/opt/ros/galactic', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/leoo/Desktop/project2_ws/build/project2_control', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/leoo/Desktop/project2_ws/build/project2_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leoo/Desktop/project2_ws/install/project2_control/lib/python3.8/site-packages:/home/leoo/Desktop/project2_ws/install/robot_arm_control/lib/python3.8/site-packages:/home/leoo/Desktop/project2_ws/install/project2_control/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/leoo/Desktop/project2_ws/install/project2_pkg'}, 'shell': False}
+[2.318335] (-) TimerEvent: {}
+[2.395011] (odometry) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.402080] (project2_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.416289] (odometry) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.417283] (odometry) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.417963] (odometry) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.418661] (-) TimerEvent: {}
+[2.425150] (project2_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.425991] (project2_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.426504] (project2_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.454972] (project2_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[2.455337] (odometry) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[2.482078] (project2_pkg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):\n'}
+[2.482438] (project2_pkg) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[2.482581] (project2_pkg) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[2.482671] (project2_pkg) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[2.482744] (project2_pkg) StderrLine: {'line': b'\n'}
+[2.482797] (project2_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.482847] (project2_pkg) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/core/all.cmake:53 (include)\n'}
+[2.482896] (project2_pkg) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[2.482956] (project2_pkg) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[2.483027] (project2_pkg) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[2.483106] (project2_pkg) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[2.483185] (project2_pkg) StderrLine: {'line': b'  CMakeLists.txt:9 (find_package)\n'}
+[2.483241] (project2_pkg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.483290] (project2_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[2.483342] (odometry) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):\n'}
+[2.483468] (odometry) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[2.483550] (odometry) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[2.483611] (odometry) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[2.483660] (odometry) StderrLine: {'line': b'\n'}
+[2.483710] (odometry) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.483764] (odometry) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/core/all.cmake:53 (include)\n'}
+[2.483813] (odometry) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[2.483866] (odometry) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[2.483915] (odometry) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[2.483965] (odometry) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[2.484013] (odometry) StderrLine: {'line': b'  CMakeLists.txt:9 (find_package)\n'}
+[2.484061] (odometry) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.484111] (odometry) StderrLine: {'line': b'\x1b[0m\n'}
+[2.519034] (-) TimerEvent: {}
+[2.536475] (odometry) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3")\n'}
+[2.536849] (odometry) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.559935] (project2_pkg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3")\n'}
+[2.560261] (project2_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.619287] (-) TimerEvent: {}
+[2.690917] (robot_arm_control) StdoutLine: {'line': b'running egg_info\n'}
+[2.691578] (robot_arm_control) StdoutLine: {'line': b'creating ../../build/robot_arm_control/robot_arm_control.egg-info\n'}
+[2.692475] (robot_arm_control) StdoutLine: {'line': b'writing ../../build/robot_arm_control/robot_arm_control.egg-info/PKG-INFO\n'}
+[2.692636] (robot_arm_control) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_arm_control/robot_arm_control.egg-info/dependency_links.txt\n'}
+[2.692711] (robot_arm_control) StdoutLine: {'line': b'writing entry points to ../../build/robot_arm_control/robot_arm_control.egg-info/entry_points.txt\n'}
+[2.692835] (robot_arm_control) StdoutLine: {'line': b'writing requirements to ../../build/robot_arm_control/robot_arm_control.egg-info/requires.txt\n'}
+[2.692944] (robot_arm_control) StdoutLine: {'line': b'writing top-level names to ../../build/robot_arm_control/robot_arm_control.egg-info/top_level.txt\n'}
+[2.697673] (robot_arm_control) StdoutLine: {'line': b"writing manifest file '../../build/robot_arm_control/robot_arm_control.egg-info/SOURCES.txt'\n"}
+[2.704650] (project2_control) StdoutLine: {'line': b'running egg_info\n'}
+[2.705233] (project2_control) StdoutLine: {'line': b'creating ../../build/project2_control/project2_control.egg-info\n'}
+[2.705630] (project2_control) StdoutLine: {'line': b'writing ../../build/project2_control/project2_control.egg-info/PKG-INFO\n'}
+[2.705980] (project2_control) StdoutLine: {'line': b'writing dependency_links to ../../build/project2_control/project2_control.egg-info/dependency_links.txt\n'}
+[2.706309] (project2_control) StdoutLine: {'line': b'writing entry points to ../../build/project2_control/project2_control.egg-info/entry_points.txt\n'}
+[2.706402] (project2_control) StdoutLine: {'line': b'writing requirements to ../../build/project2_control/project2_control.egg-info/requires.txt\n'}
+[2.706460] (project2_control) StdoutLine: {'line': b'writing top-level names to ../../build/project2_control/project2_control.egg-info/top_level.txt\n'}
+[2.707725] (project2_control) StdoutLine: {'line': b"writing manifest file '../../build/project2_control/project2_control.egg-info/SOURCES.txt'\n"}
+[2.719614] (project2_pkg) StdoutLine: {'line': b'-- Found rclpy: 1.9.3 (/opt/ros/galactic/share/rclpy/cmake)\n'}
+[2.719895] (-) TimerEvent: {}
+[2.726625] (odometry) StdoutLine: {'line': b'-- Found tf2: 0.17.5 (/opt/ros/galactic/share/tf2/cmake)\n'}
+[2.727151] (project2_pkg) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[2.731436] (robot_arm_control) StdoutLine: {'line': b"reading manifest file '../../build/robot_arm_control/robot_arm_control.egg-info/SOURCES.txt'\n"}
+[2.732260] (robot_arm_control) StdoutLine: {'line': b"writing manifest file '../../build/robot_arm_control/robot_arm_control.egg-info/SOURCES.txt'\n"}
+[2.732624] (robot_arm_control) StdoutLine: {'line': b'running build\n'}
+[2.732786] (robot_arm_control) StdoutLine: {'line': b'running build_py\n'}
+[2.733357] (robot_arm_control) StdoutLine: {'line': b'creating /home/leoo/Desktop/project2_ws/build/robot_arm_control/build\n'}
+[2.733630] (robot_arm_control) StdoutLine: {'line': b'creating /home/leoo/Desktop/project2_ws/build/robot_arm_control/build/lib\n'}
+[2.733784] (robot_arm_control) StdoutLine: {'line': b'creating /home/leoo/Desktop/project2_ws/build/robot_arm_control/build/lib/robot_arm_control\n'}
+[2.733890] (robot_arm_control) StdoutLine: {'line': b'copying robot_arm_control/arm_teleop_control.py -> /home/leoo/Desktop/project2_ws/build/robot_arm_control/build/lib/robot_arm_control\n'}
+[2.734161] (robot_arm_control) StdoutLine: {'line': b'copying robot_arm_control/__init__.py -> /home/leoo/Desktop/project2_ws/build/robot_arm_control/build/lib/robot_arm_control\n'}
+[2.734420] (robot_arm_control) StdoutLine: {'line': b'copying robot_arm_control/arm_inv_kine_control.py -> /home/leoo/Desktop/project2_ws/build/robot_arm_control/build/lib/robot_arm_control\n'}
+[2.734654] (robot_arm_control) StdoutLine: {'line': b'copying robot_arm_control/vacuum_gripper.py -> /home/leoo/Desktop/project2_ws/build/robot_arm_control/build/lib/robot_arm_control\n'}
+[2.734795] (robot_arm_control) StdoutLine: {'line': b'running install\n'}
+[2.735991] (robot_arm_control) StdoutLine: {'line': b'running install_lib\n'}
+[2.736925] (robot_arm_control) StdoutLine: {'line': b'creating /home/leoo/Desktop/project2_ws/install/robot_arm_control/lib/python3.8/site-packages/robot_arm_control\n'}
+[2.737368] (robot_arm_control) StdoutLine: {'line': b'copying /home/leoo/Desktop/project2_ws/build/robot_arm_control/build/lib/robot_arm_control/arm_teleop_control.py -> /home/leoo/Desktop/project2_ws/install/robot_arm_control/lib/python3.8/site-packages/robot_arm_control\n'}
+[2.737753] (robot_arm_control) StdoutLine: {'line': b'copying /home/leoo/Desktop/project2_ws/build/robot_arm_control/build/lib/robot_arm_control/__init__.py -> /home/leoo/Desktop/project2_ws/install/robot_arm_control/lib/python3.8/site-packages/robot_arm_control\n'}
+[2.738171] (robot_arm_control) StdoutLine: {'line': b'copying /home/leoo/Desktop/project2_ws/build/robot_arm_control/build/lib/robot_arm_control/arm_inv_kine_control.py -> /home/leoo/Desktop/project2_ws/install/robot_arm_control/lib/python3.8/site-packages/robot_arm_control\n'}
+[2.738346] (robot_arm_control) StdoutLine: {'line': b'copying /home/leoo/Desktop/project2_ws/build/robot_arm_control/build/lib/robot_arm_control/vacuum_gripper.py -> /home/leoo/Desktop/project2_ws/install/robot_arm_control/lib/python3.8/site-packages/robot_arm_control\n'}
+[2.738520] (robot_arm_control) StdoutLine: {'line': b'byte-compiling /home/leoo/Desktop/project2_ws/install/robot_arm_control/lib/python3.8/site-packages/robot_arm_control/arm_teleop_control.py to arm_teleop_control.cpython-38.pyc\n'}
+[2.739408] (robot_arm_control) StdoutLine: {'line': b'byte-compiling /home/leoo/Desktop/project2_ws/install/robot_arm_control/lib/python3.8/site-packages/robot_arm_control/__init__.py to __init__.cpython-38.pyc\n'}
+[2.740352] (robot_arm_control) StdoutLine: {'line': b'byte-compiling /home/leoo/Desktop/project2_ws/install/robot_arm_control/lib/python3.8/site-packages/robot_arm_control/arm_inv_kine_control.py to arm_inv_kine_control.cpython-38.pyc\n'}
+[2.741214] (project2_control) StdoutLine: {'line': b"reading manifest file '../../build/project2_control/project2_control.egg-info/SOURCES.txt'\n"}
+[2.742065] (project2_control) StdoutLine: {'line': b"writing manifest file '../../build/project2_control/project2_control.egg-info/SOURCES.txt'\n"}
+[2.742478] (project2_control) StdoutLine: {'line': b'running build\n'}
+[2.742831] (project2_control) StdoutLine: {'line': b'running build_py\n'}
+[2.743022] (project2_control) StdoutLine: {'line': b'creating /home/leoo/Desktop/project2_ws/build/project2_control/build\n'}
+[2.743124] (project2_control) StdoutLine: {'line': b'creating /home/leoo/Desktop/project2_ws/build/project2_control/build/lib\n'}
+[2.743245] (project2_control) StdoutLine: {'line': b'creating /home/leoo/Desktop/project2_ws/build/project2_control/build/lib/project2_control\n'}
+[2.743342] (project2_control) StdoutLine: {'line': b'copying project2_control/__init__.py -> /home/leoo/Desktop/project2_ws/build/project2_control/build/lib/project2_control\n'}
+[2.743693] (project2_control) StdoutLine: {'line': b'copying project2_control/project2_teleop_control.py -> /home/leoo/Desktop/project2_ws/build/project2_control/build/lib/project2_control\n'}
+[2.743943] (project2_control) StdoutLine: {'line': b'running install\n'}
+[2.744895] (project2_control) StdoutLine: {'line': b'running install_lib\n'}
+[2.746657] (project2_control) StdoutLine: {'line': b'creating /home/leoo/Desktop/project2_ws/install/project2_control/lib/python3.8/site-packages/project2_control\n'}
+[2.746899] (project2_control) StdoutLine: {'line': b'copying /home/leoo/Desktop/project2_ws/build/project2_control/build/lib/project2_control/__init__.py -> /home/leoo/Desktop/project2_ws/install/project2_control/lib/python3.8/site-packages/project2_control\n'}
+[2.747021] (project2_control) StdoutLine: {'line': b'copying /home/leoo/Desktop/project2_ws/build/project2_control/build/lib/project2_control/project2_teleop_control.py -> /home/leoo/Desktop/project2_ws/install/project2_control/lib/python3.8/site-packages/project2_control\n'}
+[2.747843] (project2_control) StdoutLine: {'line': b'byte-compiling /home/leoo/Desktop/project2_ws/install/project2_control/lib/python3.8/site-packages/project2_control/__init__.py to __init__.cpython-38.pyc\n'}
+[2.749729] (project2_control) StdoutLine: {'line': b'byte-compiling /home/leoo/Desktop/project2_ws/install/project2_control/lib/python3.8/site-packages/project2_control/project2_teleop_control.py to project2_teleop_control.cpython-38.pyc\n'}
+[2.750074] (robot_arm_control) StdoutLine: {'line': b'byte-compiling /home/leoo/Desktop/project2_ws/install/robot_arm_control/lib/python3.8/site-packages/robot_arm_control/vacuum_gripper.py to vacuum_gripper.cpython-38.pyc\n'}
+[2.750316] (robot_arm_control) StdoutLine: {'line': b'running install_data\n'}
+[2.750539] (robot_arm_control) StdoutLine: {'line': b'creating /home/leoo/Desktop/project2_ws/install/robot_arm_control/share/ament_index\n'}
+[2.750897] (robot_arm_control) StdoutLine: {'line': b'creating /home/leoo/Desktop/project2_ws/install/robot_arm_control/share/ament_index/resource_index\n'}
+[2.751164] (robot_arm_control) StdoutLine: {'line': b'creating /home/leoo/Desktop/project2_ws/install/robot_arm_control/share/ament_index/resource_index/packages\n'}
+[2.751450] (robot_arm_control) StdoutLine: {'line': b'copying resource/robot_arm_control -> /home/leoo/Desktop/project2_ws/install/robot_arm_control/share/ament_index/resource_index/packages\n'}
+[2.751831] (robot_arm_control) StdoutLine: {'line': b'copying package.xml -> /home/leoo/Desktop/project2_ws/install/robot_arm_control/share/robot_arm_control\n'}
+[2.752143] (robot_arm_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.752272] (project2_control) StdoutLine: {'line': b'running install_data\n'}
+[2.752382] (project2_control) StdoutLine: {'line': b'creating /home/leoo/Desktop/project2_ws/install/project2_control/share/ament_index\n'}
+[2.752569] (project2_control) StdoutLine: {'line': b'creating /home/leoo/Desktop/project2_ws/install/project2_control/share/ament_index/resource_index\n'}
+[2.752803] (project2_control) StdoutLine: {'line': b'creating /home/leoo/Desktop/project2_ws/install/project2_control/share/ament_index/resource_index/packages\n'}
+[2.752967] (project2_control) StdoutLine: {'line': b'copying resource/project2_control -> /home/leoo/Desktop/project2_ws/install/project2_control/share/ament_index/resource_index/packages\n'}
+[2.753246] (project2_control) StdoutLine: {'line': b'copying package.xml -> /home/leoo/Desktop/project2_ws/install/project2_control/share/project2_control\n'}
+[2.753404] (project2_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.753535] (robot_arm_control) StdoutLine: {'line': b'Copying ../../build/robot_arm_control/robot_arm_control.egg-info to /home/leoo/Desktop/project2_ws/install/robot_arm_control/lib/python3.8/site-packages/robot_arm_control-0.0.0-py3.8.egg-info\n'}
+[2.753835] (robot_arm_control) StdoutLine: {'line': b'running install_scripts\n'}
+[2.755501] (project2_control) StdoutLine: {'line': b'Copying ../../build/project2_control/project2_control.egg-info to /home/leoo/Desktop/project2_ws/install/project2_control/lib/python3.8/site-packages/project2_control-0.0.0-py3.8.egg-info\n'}
+[2.757990] (project2_control) StdoutLine: {'line': b'running install_scripts\n'}
+[2.782279] (robot_arm_control) StdoutLine: {'line': b'Installing arm_inv_kine_control script to /home/leoo/Desktop/project2_ws/install/robot_arm_control/lib/robot_arm_control\n'}
+[2.782612] (robot_arm_control) StdoutLine: {'line': b'Installing arm_teleop_control script to /home/leoo/Desktop/project2_ws/install/robot_arm_control/lib/robot_arm_control\n'}
+[2.782848] (robot_arm_control) StdoutLine: {'line': b'Installing vacuum_gripper script to /home/leoo/Desktop/project2_ws/install/robot_arm_control/lib/robot_arm_control\n'}
+[2.783101] (robot_arm_control) StdoutLine: {'line': b"writing list of installed files to '/home/leoo/Desktop/project2_ws/build/robot_arm_control/install.log'\n"}
+[2.789677] (project2_control) StdoutLine: {'line': b'Installing project2_teleop_control script to /home/leoo/Desktop/project2_ws/install/project2_control/lib/project2_control\n'}
+[2.790614] (project2_control) StdoutLine: {'line': b"writing list of installed files to '/home/leoo/Desktop/project2_ws/build/project2_control/install.log'\n"}
+[2.817979] (odometry) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.818280] (project2_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.820043] (-) TimerEvent: {}
+[2.821056] (robot_arm_control) CommandEnded: {'returncode': 0}
+[2.833690] (project2_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[2.834073] (odometry) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[2.842719] (robot_arm_control) JobEnded: {'identifier': 'robot_arm_control', 'rc': 0}
+[2.845099] (project2_control) CommandEnded: {'returncode': 0}
+[2.853568] (project2_control) JobEnded: {'identifier': 'project2_control', 'rc': 0}
+[2.920505] (-) TimerEvent: {}
+[2.982203] (project2_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")\n'}
+[2.982508] (odometry) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")\n'}
+[3.020644] (project2_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include\n'}
+[3.021109] (-) TimerEvent: {}
+[3.022616] (odometry) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include\n'}
+[3.121412] (-) TimerEvent: {}
+[3.138120] (odometry) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.138528] (project2_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.221951] (-) TimerEvent: {}
+[3.236129] (project2_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[3.242493] (project2_pkg) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[3.270421] (odometry) StdoutLine: {'line': b'-- Found tf2_ros: 0.17.5 (/opt/ros/galactic/share/tf2_ros/cmake)\n'}
+[3.271599] (project2_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[3.274892] (project2_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.322422] (-) TimerEvent: {}
+[3.353345] (odometry) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[3.357734] (odometry) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[3.363928] (project2_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[3.364249] (project2_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[3.378046] (odometry) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[3.379144] (odometry) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.413422] (project2_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[3.413712] (project2_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[3.422925] (-) TimerEvent: {}
+[3.441506] (odometry) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[3.441838] (odometry) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[3.478995] (project2_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[3.480300] (project2_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[3.500083] (odometry) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[3.500358] (odometry) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[3.523174] (-) TimerEvent: {}
+[3.577787] (odometry) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[3.579692] (odometry) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[3.623505] (-) TimerEvent: {}
+[3.715437] (project2_pkg) StdoutLine: {'line': b'-- Found robot_state_publisher: 2.5.3 (/opt/ros/galactic/share/robot_state_publisher/cmake)\n'}
+[3.723581] (-) TimerEvent: {}
+[3.724654] (project2_pkg) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)\n'}
+[3.732253] (project2_pkg) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7")\n'}
+[3.823937] (-) TimerEvent: {}
+[3.924788] (-) TimerEvent: {}
+[4.025601] (-) TimerEvent: {}
+[4.126125] (-) TimerEvent: {}
+[4.176174] (odometry) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /home/leoo/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake:441 (message):\n'}
+[4.176469] (odometry) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PkgConfig)\n'}
+[4.176655] (odometry) StderrLine: {'line': b'  does not match the name of the calling package (gazebo).  This can lead to\n'}
+[4.176824] (odometry) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[4.177002] (odometry) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[4.177177] (odometry) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.177352] (odometry) StderrLine: {'line': b'  /home/leoo/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.30/Modules/FindPkgConfig.cmake:114 (find_package_handle_standard_args)\n'}
+[4.177535] (odometry) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)\n'}
+[4.177723] (odometry) StderrLine: {'line': b'  CMakeLists.txt:12 (find_package)\n'}
+[4.177903] (odometry) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[4.178085] (odometry) StderrLine: {'line': b'\x1b[0m\n'}
+[4.178351] (odometry) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1")\n'}
+[4.178534] (odometry) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[4.197217] (odometry) StdoutLine: {'line': b'--   Found bullet, version 2.88\n'}
+[4.226690] (-) TimerEvent: {}
+[4.311205] (project2_pkg) StdoutLine: {'line': b'-- Found xacro: 2.0.7 (/opt/ros/galactic/share/xacro/cmake)\n'}
+[4.315981] (project2_pkg) StdoutLine: {'line': b'-- Found ros2_control: 1.6.0 (/opt/ros/galactic/share/ros2_control/cmake)\n'}
+[4.321306] (project2_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[4.327206] (-) TimerEvent: {}
+[4.348310] (odometry) StdoutLine: {'line': b'-- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0")\n'}
+[4.419846] (odometry) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2")\n'}
+[4.427467] (-) TimerEvent: {}
+[4.439954] (project2_pkg) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.446058] (project2_pkg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.447828] (project2_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.449159] (project2_pkg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[4.452565] (project2_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.456345] (project2_pkg) StdoutLine: {'line': b'-- Configuring done (3.7s)\n'}
+[4.466088] (project2_pkg) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[4.467032] (project2_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/leoo/Desktop/project2_ws/build/project2_pkg\n'}
+[4.489030] (project2_pkg) CommandEnded: {'returncode': 0}
+[4.489874] (project2_pkg) JobProgress: {'identifier': 'project2_pkg', 'progress': 'build'}
+[4.492334] (project2_pkg) Command: {'cmd': ['/home/leoo/.local/bin/cmake', '--build', '/home/leoo/Desktop/project2_ws/build/project2_pkg', '--', '-j8', '-l8'], 'cwd': '/home/leoo/Desktop/project2_ws/build/project2_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'leoo'), ('SSH_AGENT_PID', '1593'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/leoo/Desktop/project2_ws/install/odometry/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/leoo'), ('OLDPWD', '/home/leoo/Desktop/project2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1494'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/leoo/Desktop/project2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'leoo'), ('JOURNAL_STREAM', '8:54817'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'leoo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/leoo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1663,unix/ubuntu:/tmp/.ICE-unix/1663'), ('INVOCATION_ID', '70717aedc2f042d08fee40fa53addfb7'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/046fa0ad_ba7b_4a04_a95b_f8bf25c2a6e4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/leoo/Desktop/project2_ws/install/robot_arm_control:/home/leoo/Desktop/project2_ws/install/project2_pkg:/home/leoo/Desktop/project2_ws/install/project2_control:/home/leoo/Desktop/project2_ws/install/odometry:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/leoo/Desktop/project2_ws/build/project2_pkg'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/leoo/Desktop/project2_ws/install/robot_arm_control/lib/python3.8/site-packages:/home/leoo/Desktop/project2_ws/install/project2_control/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/leoo/Desktop/project2_ws/install/project2_pkg:/home/leoo/Desktop/project2_ws/install/robot_arm_control:/home/leoo/Desktop/project2_ws/install/project2_control:/home/leoo/Desktop/project2_ws/install/odometry:/opt/ros/galactic')]), 'shell': False}
+[4.495416] (odometry) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.0.0")\n'}
+[4.496595] (odometry) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/dart/cmake/DARTFindBoost.cmake:24 (find_package):\n'}
+[4.496835] (odometry) StderrLine: {'line': b'  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake\n'}
+[4.496981] (odometry) StderrLine: {'line': b'  --help-policy CMP0167" for policy details.  Use the cmake_policy command to\n'}
+[4.497128] (odometry) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[4.497248] (odometry) StderrLine: {'line': b'\n'}
+[4.497370] (odometry) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.497486] (odometry) StderrLine: {'line': b'  /usr/share/dart/cmake/dart_dartComponent.cmake:6 (include)\n'}
+[4.497576] (odometry) StderrLine: {'line': b'  /usr/share/dart/cmake/DARTConfig.cmake:63 (include)\n'}
+[4.497767] (odometry) StderrLine: {'line': b'  /usr/share/dart/cmake/DARTConfig.cmake:123 (dart_traverse_components)\n'}
+[4.497910] (odometry) StderrLine: {'line': b'  /usr/share/dart/cmake/DARTConfig.cmake:171 (dart_package_init)\n'}
+[4.498058] (odometry) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:166 (find_package)\n'}
+[4.498215] (odometry) StderrLine: {'line': b'  CMakeLists.txt:12 (find_package)\n'}
+[4.498351] (odometry) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[4.498533] (odometry) StderrLine: {'line': b'\x1b[0m\n'}
+[4.527767] (-) TimerEvent: {}
+[4.553266] (odometry) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart\n'}
+[4.569668] (odometry) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:197 (find_package):\n'}
+[4.569930] (odometry) StderrLine: {'line': b'  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake\n'}
+[4.570130] (odometry) StderrLine: {'line': b'  --help-policy CMP0167" for policy details.  Use the cmake_policy command to\n'}
+[4.570304] (odometry) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[4.570399] (odometry) StderrLine: {'line': b'\n'}
+[4.570480] (odometry) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.570561] (odometry) StderrLine: {'line': b'  CMakeLists.txt:12 (find_package)\n'}
+[4.570644] (odometry) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[4.570725] (odometry) StderrLine: {'line': b'\x1b[0m\n'}
+[4.598016] (project2_pkg) CommandEnded: {'returncode': 0}
+[4.617360] (odometry) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time\n'}
+[4.628743] (-) TimerEvent: {}
+[4.692872] (odometry) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1")\n'}
+[4.699372] (project2_pkg) JobProgress: {'identifier': 'project2_pkg', 'progress': 'install'}
+[4.704307] (odometry) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[4.725188] (odometry) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[4.728828] (-) TimerEvent: {}
+[4.731414] (odometry) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[4.732190] (odometry) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[4.738303] (odometry) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[4.757883] (odometry) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[4.781610] (project2_pkg) Command: {'cmd': ['/home/leoo/.local/bin/cmake', '--install', '/home/leoo/Desktop/project2_ws/build/project2_pkg'], 'cwd': '/home/leoo/Desktop/project2_ws/build/project2_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'leoo'), ('SSH_AGENT_PID', '1593'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/leoo/Desktop/project2_ws/install/odometry/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/leoo'), ('OLDPWD', '/home/leoo/Desktop/project2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1494'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/leoo/Desktop/project2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'leoo'), ('JOURNAL_STREAM', '8:54817'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'leoo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/leoo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1663,unix/ubuntu:/tmp/.ICE-unix/1663'), ('INVOCATION_ID', '70717aedc2f042d08fee40fa53addfb7'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/046fa0ad_ba7b_4a04_a95b_f8bf25c2a6e4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/leoo/Desktop/project2_ws/install/robot_arm_control:/home/leoo/Desktop/project2_ws/install/project2_pkg:/home/leoo/Desktop/project2_ws/install/project2_control:/home/leoo/Desktop/project2_ws/install/odometry:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/leoo/Desktop/project2_ws/build/project2_pkg'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/leoo/Desktop/project2_ws/install/robot_arm_control/lib/python3.8/site-packages:/home/leoo/Desktop/project2_ws/install/project2_control/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/leoo/Desktop/project2_ws/install/project2_pkg:/home/leoo/Desktop/project2_ws/install/robot_arm_control:/home/leoo/Desktop/project2_ws/install/project2_control:/home/leoo/Desktop/project2_ws/install/odometry:/opt/ros/galactic')]), 'shell': False}
+[4.807292] (odometry) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[4.826079] (odometry) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[4.826501] (odometry) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/OGRE/cmake/modules/FindOGRE.cmake:309 (find_package):\n'}
+[4.826673] (odometry) StderrLine: {'line': b'  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake\n'}
+[4.826844] (odometry) StderrLine: {'line': b'  --help-policy CMP0167" for policy details.  Use the cmake_policy command to\n'}
+[4.827001] (odometry) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[4.827157] (odometry) StderrLine: {'line': b'\n'}
+[4.827266] (odometry) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.827424] (odometry) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:213 (find_package)\n'}
+[4.827654] (odometry) StderrLine: {'line': b'  CMakeLists.txt:12 (find_package)\n'}
+[4.827864] (odometry) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[4.828036] (odometry) StderrLine: {'line': b'\x1b[0m\n'}
+[4.829407] (-) TimerEvent: {}
+[4.832683] (odometry) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/OGRE/cmake/modules/FindOGRE.cmake:318 (find_package):\n'}
+[4.832924] (odometry) StderrLine: {'line': b'  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake\n'}
+[4.833014] (odometry) StderrLine: {'line': b'  --help-policy CMP0167" for policy details.  Use the cmake_policy command to\n'}
+[4.833115] (odometry) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[4.833227] (odometry) StderrLine: {'line': b'\n'}
+[4.833328] (odometry) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.833462] (odometry) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:213 (find_package)\n'}
+[4.833553] (odometry) StderrLine: {'line': b'  CMakeLists.txt:12 (find_package)\n'}
+[4.833652] (odometry) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[4.833752] (odometry) StderrLine: {'line': b'\x1b[0m\n'}
+[4.839109] (project2_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.839457] (odometry) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[4.840494] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//urdf\n'}
+[4.840960] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//urdf/project2_pkg.csv\n'}
+[4.841236] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//urdf/project2_pkg.urdf.xacro\n'}
+[4.841539] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//meshes\n'}
+[4.841823] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//meshes/rrw.STL\n'}
+[4.842026] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//meshes/link4.STL\n'}
+[4.842223] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//meshes/flw.STL\n'}
+[4.842519] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//meshes/link2.STL\n'}
+[4.842636] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//meshes/link3.STL\n'}
+[4.842843] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//meshes/chassi.STL\n'}
+[4.843018] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//meshes/link1.STL\n'}
+[4.843177] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//meshes/rlw.STL\n'}
+[4.843314] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//meshes/frw.STL\n'}
+[4.843538] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//meshes/ef.STL\n'}
+[4.843832] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//launch\n'}
+[4.844010] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//launch/gazebo.launch.py\n'}
+[4.844187] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//launch/debug.launch.py\n'}
+[4.844511] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//launch/spawn_robot_ros2.launch.py\n'}
+[4.844694] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//launch/display.launch.py\n'}
+[4.844993] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//launch/robot_description_publisher.py\n'}
+[4.845234] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//launch/competition.launch.py\n'}
+[4.845479] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//worlds\n'}
+[4.845712] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//worlds/empty_world.world\n'}
+[4.845915] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//config\n'}
+[4.846113] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//config/control.yaml\n'}
+[4.846276] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//competition\n'}
+[4.846449] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//competition/arena\n'}
+[4.846631] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//competition/arena/meshes\n'}
+[4.847283] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//competition/arena/meshes/check_point.STL\n'}
+[4.847514] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//competition/arena/meshes/track.STL\n'}
+[4.847735] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//competition/arena/meshes/base_link.STL\n'}
+[4.848329] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//competition/arena/model.urdf.xacro\n'}
+[4.848446] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//competition/arena/model.config\n'}
+[4.848571] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//competition/arena/model.sdf\n'}
+[4.848695] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//competition/worlds\n'}
+[4.848824] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//competition/worlds/competition.world\n'}
+[4.848948] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/include/project2_pkg\n'}
+[4.849071] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/lib/project2_pkg/robot_description_publisher.py\n'}
+[4.849247] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/ament_index/resource_index/package_run_dependencies/project2_pkg\n'}
+[4.849402] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/ament_index/resource_index/parent_prefix_path/project2_pkg\n'}
+[4.849560] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg/environment/ament_prefix_path.sh\n'}
+[4.849758] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg/environment/ament_prefix_path.dsv\n'}
+[4.849930] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg/environment/path.sh\n'}
+[4.850088] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg/environment/path.dsv\n'}
+[4.850247] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg/local_setup.bash\n'}
+[4.850427] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg/local_setup.sh\n'}
+[4.850608] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg/local_setup.zsh\n'}
+[4.850767] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg/local_setup.dsv\n'}
+[4.850924] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg/package.dsv\n'}
+[4.851081] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/ament_index/resource_index/packages/project2_pkg\n'}
+[4.851254] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg/cmake/project2_pkgConfig.cmake\n'}
+[4.851427] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg/cmake/project2_pkgConfig-version.cmake\n'}
+[4.851642] (project2_pkg) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg/package.xml\n'}
+[4.856636] (odometry) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[4.856975] (odometry) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[4.861503] (project2_pkg) CommandEnded: {'returncode': 0}
+[4.873713] (odometry) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[4.874075] (odometry) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[4.888285] (odometry) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[4.888546] (odometry) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[4.903750] (odometry) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[4.904195] (odometry) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[4.916259] (odometry) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[4.916578] (odometry) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[4.929643] (-) TimerEvent: {}
+[4.931941] (odometry) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[4.963618] (project2_pkg) JobEnded: {'identifier': 'project2_pkg', 'rc': 0}
+[5.030094] (-) TimerEvent: {}
+[5.130504] (-) TimerEvent: {}
+[5.215126] (odometry) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[5.220349] (odometry) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.3.0\n'}
+[5.221136] (odometry) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[5.230832] (-) TimerEvent: {}
+[5.239652] (odometry) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3")\n'}
+[5.251042] (odometry) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[5.256199] (odometry) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[5.276668] (odometry) StdoutLine: {'line': b'--   Found libzmq, version 4.3.2\n'}
+[5.325142] (odometry) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4")\n'}
+[5.331292] (-) TimerEvent: {}
+[5.332994] (odometry) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[5.353751] (odometry) StdoutLine: {'line': b'--   Found uuid, version 2.34.0\n'}
+[5.401748] (odometry) StdoutLine: {'line': b'-- Found UUID: TRUE\n'}
+[5.405458] (odometry) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[5.405815] (odometry) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[5.427791] (odometry) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[5.431881] (-) TimerEvent: {}
+[5.435361] (odometry) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[5.452770] (odometry) StdoutLine: {'line': b'--   Found tinyxml2, version 6.2.0\n'}
+[5.501623] (odometry) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[5.507800] (odometry) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.2\n'}
+[5.508087] (odometry) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[5.509151] (odometry) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[5.510542] (odometry) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[5.512292] (odometry) StdoutLine: {'line': b'-- Found DL: TRUE\n'}
+[5.524260] (odometry) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[5.527933] (odometry) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.2\n'}
+[5.528310] (odometry) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[5.528690] (odometry) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[5.532029] (-) TimerEvent: {}
+[5.534437] (odometry) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.6.0\n'}
+[5.534717] (odometry) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[5.632508] (-) TimerEvent: {}
+[5.642648] (odometry) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")\n'}
+[5.654415] (odometry) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[5.674834] (odometry) StdoutLine: {'line': b'--   Found jsoncpp, version 1.7.4\n'}
+[5.720844] (odometry) StdoutLine: {'line': b'-- Found JSONCPP: TRUE\n'}
+[5.727608] (odometry) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[5.732777] (-) TimerEvent: {}
+[5.746974] (odometry) StdoutLine: {'line': b'--   Found libzip, version 1.5.1\n'}
+[5.792991] (odometry) StdoutLine: {'line': b'-- Found ZIP: TRUE\n'}
+[5.793561] (odometry) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.2\n'}
+[5.794179] (odometry) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[5.794731] (odometry) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[5.800583] (odometry) StdoutLine: {'line': b'-- Found gazebo_ros: 3.5.2 (/opt/ros/galactic/share/gazebo_ros/cmake)\n'}
+[5.810314] (odometry) StdoutLine: {'line': b'-- Gazebo version: 11.11\n'}
+[5.817819] (odometry) StdoutLine: {'line': b'-- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)\n'}
+[5.833125] (-) TimerEvent: {}
+[5.907157] (odometry) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[5.933505] (-) TimerEvent: {}
+[5.980779] (odometry) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[5.982196] (odometry) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.982547] (odometry) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/leoo/Desktop/project2_ws/src/odometry/include\n'}
+[5.982776] (odometry) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.983685] (odometry) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[5.984021] (odometry) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[5.984876] (odometry) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.986105] (odometry) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[5.986336] (odometry) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[5.986788] (odometry) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.989172] (odometry) StdoutLine: {'line': b'-- Configuring done (5.7s)\n'}
+[6.034563] (-) TimerEvent: {}
+[6.074996] (odometry) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[6.076539] (odometry) StdoutLine: {'line': b'-- Build files have been written to: /home/leoo/Desktop/project2_ws/build/odometry\n'}
+[6.108507] (odometry) CommandEnded: {'returncode': 0}
+[6.109654] (odometry) JobProgress: {'identifier': 'odometry', 'progress': 'build'}
+[6.111990] (odometry) Command: {'cmd': ['/home/leoo/.local/bin/cmake', '--build', '/home/leoo/Desktop/project2_ws/build/odometry', '--', '-j8', '-l8'], 'cwd': '/home/leoo/Desktop/project2_ws/build/odometry', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'leoo'), ('SSH_AGENT_PID', '1593'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/leoo/Desktop/project2_ws/install/odometry/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/leoo'), ('OLDPWD', '/home/leoo/Desktop/project2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1494'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/leoo/Desktop/project2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'leoo'), ('JOURNAL_STREAM', '8:54817'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'leoo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/leoo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1663,unix/ubuntu:/tmp/.ICE-unix/1663'), ('INVOCATION_ID', '70717aedc2f042d08fee40fa53addfb7'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/046fa0ad_ba7b_4a04_a95b_f8bf25c2a6e4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/leoo/Desktop/project2_ws/install/robot_arm_control:/home/leoo/Desktop/project2_ws/install/project2_pkg:/home/leoo/Desktop/project2_ws/install/project2_control:/home/leoo/Desktop/project2_ws/install/odometry:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/leoo/Desktop/project2_ws/build/odometry'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/leoo/Desktop/project2_ws/install/robot_arm_control/lib/python3.8/site-packages:/home/leoo/Desktop/project2_ws/install/project2_control/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/leoo/Desktop/project2_ws/install/project2_pkg:/home/leoo/Desktop/project2_ws/install/robot_arm_control:/home/leoo/Desktop/project2_ws/install/project2_control:/home/leoo/Desktop/project2_ws/install/odometry:/opt/ros/galactic')]), 'shell': False}
+[6.134821] (-) TimerEvent: {}
+[6.187659] (odometry) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/odometry_plugin.dir/src/odometry_plugin.cpp.o\x1b[0m\n'}
+[6.235167] (-) TimerEvent: {}
+[6.336010] (-) TimerEvent: {}
+[6.436833] (-) TimerEvent: {}
+[6.537461] (-) TimerEvent: {}
+[6.637883] (-) TimerEvent: {}
+[6.738433] (-) TimerEvent: {}
+[6.839035] (-) TimerEvent: {}
+[6.939505] (-) TimerEvent: {}
+[7.040117] (-) TimerEvent: {}
+[7.140634] (-) TimerEvent: {}
+[7.241163] (-) TimerEvent: {}
+[7.341491] (-) TimerEvent: {}
+[7.442023] (-) TimerEvent: {}
+[7.542602] (-) TimerEvent: {}
+[7.643271] (-) TimerEvent: {}
+[7.743757] (-) TimerEvent: {}
+[7.844672] (-) TimerEvent: {}
+[7.945232] (-) TimerEvent: {}
+[8.045985] (-) TimerEvent: {}
+[8.146634] (-) TimerEvent: {}
+[8.247444] (-) TimerEvent: {}
+[8.347910] (-) TimerEvent: {}
+[8.448630] (-) TimerEvent: {}
+[8.549116] (-) TimerEvent: {}
+[8.649527] (-) TimerEvent: {}
+[8.750176] (-) TimerEvent: {}
+[8.850876] (-) TimerEvent: {}
+[8.951280] (-) TimerEvent: {}
+[9.052210] (-) TimerEvent: {}
+[9.152951] (-) TimerEvent: {}
+[9.253719] (-) TimerEvent: {}
+[9.354432] (-) TimerEvent: {}
+[9.454917] (-) TimerEvent: {}
+[9.555562] (-) TimerEvent: {}
+[9.655993] (-) TimerEvent: {}
+[9.756776] (-) TimerEvent: {}
+[9.857324] (-) TimerEvent: {}
+[9.957848] (-) TimerEvent: {}
+[10.058446] (-) TimerEvent: {}
+[10.159278] (-) TimerEvent: {}
+[10.259943] (-) TimerEvent: {}
+[10.360716] (-) TimerEvent: {}
+[10.461473] (-) TimerEvent: {}
+[10.562084] (-) TimerEvent: {}
+[10.662774] (-) TimerEvent: {}
+[10.763669] (-) TimerEvent: {}
+[10.864800] (-) TimerEvent: {}
+[10.965682] (-) TimerEvent: {}
+[11.066298] (-) TimerEvent: {}
+[11.166766] (-) TimerEvent: {}
+[11.267401] (-) TimerEvent: {}
+[11.368251] (-) TimerEvent: {}
+[11.469027] (-) TimerEvent: {}
+[11.569905] (-) TimerEvent: {}
+[11.671018] (-) TimerEvent: {}
+[11.771633] (-) TimerEvent: {}
+[11.872397] (-) TimerEvent: {}
+[11.972943] (-) TimerEvent: {}
+[12.073632] (-) TimerEvent: {}
+[12.174541] (-) TimerEvent: {}
+[12.275229] (-) TimerEvent: {}
+[12.376203] (-) TimerEvent: {}
+[12.477024] (-) TimerEvent: {}
+[12.577845] (-) TimerEvent: {}
+[12.678717] (-) TimerEvent: {}
+[12.779733] (-) TimerEvent: {}
+[12.880890] (-) TimerEvent: {}
+[12.981514] (-) TimerEvent: {}
+[13.082112] (-) TimerEvent: {}
+[13.182843] (-) TimerEvent: {}
+[13.283427] (-) TimerEvent: {}
+[13.383977] (-) TimerEvent: {}
+[13.484740] (-) TimerEvent: {}
+[13.585622] (-) TimerEvent: {}
+[13.686338] (-) TimerEvent: {}
+[13.786764] (-) TimerEvent: {}
+[13.887513] (-) TimerEvent: {}
+[13.988140] (-) TimerEvent: {}
+[14.088952] (-) TimerEvent: {}
+[14.189851] (-) TimerEvent: {}
+[14.290659] (-) TimerEvent: {}
+[14.391520] (-) TimerEvent: {}
+[14.492391] (-) TimerEvent: {}
+[14.592993] (-) TimerEvent: {}
+[14.693861] (-) TimerEvent: {}
+[14.794615] (-) TimerEvent: {}
+[14.895241] (-) TimerEvent: {}
+[14.995652] (-) TimerEvent: {}
+[15.096278] (-) TimerEvent: {}
+[15.196842] (-) TimerEvent: {}
+[15.297449] (-) TimerEvent: {}
+[15.397960] (-) TimerEvent: {}
+[15.498815] (-) TimerEvent: {}
+[15.599306] (-) TimerEvent: {}
+[15.699939] (-) TimerEvent: {}
+[15.800672] (-) TimerEvent: {}
+[15.901580] (-) TimerEvent: {}
+[16.002260] (-) TimerEvent: {}
+[16.102777] (-) TimerEvent: {}
+[16.203372] (-) TimerEvent: {}
+[16.304812] (-) TimerEvent: {}
+[16.405585] (-) TimerEvent: {}
+[16.506345] (-) TimerEvent: {}
+[16.607279] (-) TimerEvent: {}
+[16.708062] (-) TimerEvent: {}
+[16.808495] (-) TimerEvent: {}
+[16.909083] (-) TimerEvent: {}
+[17.009934] (-) TimerEvent: {}
+[17.110654] (-) TimerEvent: {}
+[17.211204] (-) TimerEvent: {}
+[17.311939] (-) TimerEvent: {}
+[17.412846] (-) TimerEvent: {}
+[17.513452] (-) TimerEvent: {}
+[17.614664] (-) TimerEvent: {}
+[17.715391] (-) TimerEvent: {}
+[17.815929] (-) TimerEvent: {}
+[17.916318] (-) TimerEvent: {}
+[18.017213] (-) TimerEvent: {}
+[18.117923] (-) TimerEvent: {}
+[18.218661] (-) TimerEvent: {}
+[18.319192] (-) TimerEvent: {}
+[18.421978] (-) TimerEvent: {}
+[18.523818] (-) TimerEvent: {}
+[18.626388] (-) TimerEvent: {}
+[18.727287] (-) TimerEvent: {}
+[18.827686] (-) TimerEvent: {}
+[18.928300] (-) TimerEvent: {}
+[19.028854] (-) TimerEvent: {}
+[19.146962] (-) TimerEvent: {}
+[19.247822] (-) TimerEvent: {}
+[19.348709] (-) TimerEvent: {}
+[19.449280] (-) TimerEvent: {}
+[19.550283] (-) TimerEvent: {}
+[19.651072] (-) TimerEvent: {}
+[19.751627] (-) TimerEvent: {}
+[19.852457] (-) TimerEvent: {}
+[19.953689] (-) TimerEvent: {}
+[20.054772] (-) TimerEvent: {}
+[20.155539] (-) TimerEvent: {}
+[20.256410] (-) TimerEvent: {}
+[20.357411] (-) TimerEvent: {}
+[20.457896] (-) TimerEvent: {}
+[20.558443] (-) TimerEvent: {}
+[20.658931] (-) TimerEvent: {}
+[20.759415] (-) TimerEvent: {}
+[20.860098] (-) TimerEvent: {}
+[20.960633] (-) TimerEvent: {}
+[21.061494] (-) TimerEvent: {}
+[21.162404] (-) TimerEvent: {}
+[21.263393] (-) TimerEvent: {}
+[21.364652] (-) TimerEvent: {}
+[21.465606] (-) TimerEvent: {}
+[21.566174] (-) TimerEvent: {}
+[21.666713] (-) TimerEvent: {}
+[21.767572] (-) TimerEvent: {}
+[21.868382] (-) TimerEvent: {}
+[21.969397] (-) TimerEvent: {}
+[22.070025] (-) TimerEvent: {}
+[22.170784] (-) TimerEvent: {}
+[22.271262] (-) TimerEvent: {}
+[22.372099] (-) TimerEvent: {}
+[22.472713] (-) TimerEvent: {}
+[22.573547] (-) TimerEvent: {}
+[22.674398] (-) TimerEvent: {}
+[22.775116] (-) TimerEvent: {}
+[22.875830] (-) TimerEvent: {}
+[22.976475] (-) TimerEvent: {}
+[23.076930] (-) TimerEvent: {}
+[23.179199] (-) TimerEvent: {}
+[23.279988] (-) TimerEvent: {}
+[23.380526] (-) TimerEvent: {}
+[23.481383] (-) TimerEvent: {}
+[23.581786] (-) TimerEvent: {}
+[23.682523] (-) TimerEvent: {}
+[23.783376] (-) TimerEvent: {}
+[23.884421] (-) TimerEvent: {}
+[23.985078] (-) TimerEvent: {}
+[24.085688] (-) TimerEvent: {}
+[24.186402] (-) TimerEvent: {}
+[24.286899] (-) TimerEvent: {}
+[24.387758] (-) TimerEvent: {}
+[24.488779] (-) TimerEvent: {}
+[24.589304] (-) TimerEvent: {}
+[24.690148] (-) TimerEvent: {}
+[24.791024] (-) TimerEvent: {}
+[24.891492] (-) TimerEvent: {}
+[25.004196] (-) TimerEvent: {}
+[25.105057] (-) TimerEvent: {}
+[25.205963] (-) TimerEvent: {}
+[25.306701] (-) TimerEvent: {}
+[25.407300] (-) TimerEvent: {}
+[25.507735] (-) TimerEvent: {}
+[25.608498] (-) TimerEvent: {}
+[25.708920] (-) TimerEvent: {}
+[25.809355] (-) TimerEvent: {}
+[25.910004] (-) TimerEvent: {}
+[26.010748] (-) TimerEvent: {}
+[26.111530] (-) TimerEvent: {}
+[26.212003] (-) TimerEvent: {}
+[26.312569] (-) TimerEvent: {}
+[26.413136] (-) TimerEvent: {}
+[26.514442] (-) TimerEvent: {}
+[26.615083] (-) TimerEvent: {}
+[26.716007] (-) TimerEvent: {}
+[26.816876] (-) TimerEvent: {}
+[26.917358] (-) TimerEvent: {}
+[27.018001] (-) TimerEvent: {}
+[27.118426] (-) TimerEvent: {}
+[27.218898] (-) TimerEvent: {}
+[27.319706] (-) TimerEvent: {}
+[27.420290] (-) TimerEvent: {}
+[27.521011] (-) TimerEvent: {}
+[27.621834] (-) TimerEvent: {}
+[27.722357] (-) TimerEvent: {}
+[27.823420] (-) TimerEvent: {}
+[27.924603] (-) TimerEvent: {}
+[28.025427] (-) TimerEvent: {}
+[28.128394] (-) TimerEvent: {}
+[28.230067] (-) TimerEvent: {}
+[28.330732] (-) TimerEvent: {}
+[28.404439] (odometry) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libodometry_plugin.so\x1b[0m\n'}
+[28.430957] (-) TimerEvent: {}
+[28.532329] (-) TimerEvent: {}
+[28.633126] (-) TimerEvent: {}
+[28.733788] (-) TimerEvent: {}
+[28.834499] (-) TimerEvent: {}
+[28.935130] (-) TimerEvent: {}
+[29.036058] (-) TimerEvent: {}
+[29.136883] (-) TimerEvent: {}
+[29.237548] (-) TimerEvent: {}
+[29.338112] (-) TimerEvent: {}
+[29.439191] (-) TimerEvent: {}
+[29.539933] (-) TimerEvent: {}
+[29.626883] (odometry) StdoutLine: {'line': b'[100%] Built target odometry_plugin\n'}
+[29.640415] (-) TimerEvent: {}
+[29.644818] (odometry) CommandEnded: {'returncode': 0}
+[29.741064] (-) TimerEvent: {}
+[29.748473] (odometry) JobProgress: {'identifier': 'odometry', 'progress': 'install'}
+[29.751979] (odometry) Command: {'cmd': ['/home/leoo/.local/bin/cmake', '--install', '/home/leoo/Desktop/project2_ws/build/odometry'], 'cwd': '/home/leoo/Desktop/project2_ws/build/odometry', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'leoo'), ('SSH_AGENT_PID', '1593'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/leoo/Desktop/project2_ws/install/odometry/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/leoo'), ('OLDPWD', '/home/leoo/Desktop/project2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1494'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/leoo/Desktop/project2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'leoo'), ('JOURNAL_STREAM', '8:54817'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'leoo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/leoo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1663,unix/ubuntu:/tmp/.ICE-unix/1663'), ('INVOCATION_ID', '70717aedc2f042d08fee40fa53addfb7'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/046fa0ad_ba7b_4a04_a95b_f8bf25c2a6e4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/leoo/Desktop/project2_ws/install/robot_arm_control:/home/leoo/Desktop/project2_ws/install/project2_pkg:/home/leoo/Desktop/project2_ws/install/project2_control:/home/leoo/Desktop/project2_ws/install/odometry:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/leoo/Desktop/project2_ws/build/odometry'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/leoo/Desktop/project2_ws/install/robot_arm_control/lib/python3.8/site-packages:/home/leoo/Desktop/project2_ws/install/project2_control/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/leoo/Desktop/project2_ws/install/project2_pkg:/home/leoo/Desktop/project2_ws/install/robot_arm_control:/home/leoo/Desktop/project2_ws/install/project2_control:/home/leoo/Desktop/project2_ws/install/odometry:/opt/ros/galactic')]), 'shell': False}
+[29.807041] (odometry) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[29.807369] (odometry) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/odometry/include\n'}
+[29.807669] (odometry) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/odometry/include/odometry\n'}
+[29.807877] (odometry) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/odometry/include/odometry/odometry_plugin.hpp\n'}
+[29.808100] (odometry) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/odometry/share/odometry//src\n'}
+[29.808569] (odometry) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/odometry/share/odometry//src/odometry_plugin.cpp\n'}
+[29.808715] (odometry) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/odometry/share/odometry/environment/library_path.sh\n'}
+[29.808815] (odometry) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/odometry/share/odometry/environment/library_path.dsv\n'}
+[29.808914] (odometry) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/odometry/lib/libodometry_plugin.so\n'}
+[29.811986] (odometry) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/leoo/Desktop/project2_ws/install/odometry/lib/libodometry_plugin.so" to ""\n'}
+[29.812347] (odometry) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/odometry/share/ament_index/resource_index/package_run_dependencies/odometry\n'}
+[29.812679] (odometry) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/odometry/share/ament_index/resource_index/parent_prefix_path/odometry\n'}
+[29.812987] (odometry) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/odometry/share/odometry/environment/ament_prefix_path.sh\n'}
+[29.813285] (odometry) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/odometry/share/odometry/environment/ament_prefix_path.dsv\n'}
+[29.813667] (odometry) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/odometry/share/odometry/environment/path.sh\n'}
+[29.814050] (odometry) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/odometry/share/odometry/environment/path.dsv\n'}
+[29.814460] (odometry) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/odometry/share/odometry/local_setup.bash\n'}
+[29.814665] (odometry) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/odometry/share/odometry/local_setup.sh\n'}
+[29.814926] (odometry) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/odometry/share/odometry/local_setup.zsh\n'}
+[29.815338] (odometry) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/odometry/share/odometry/local_setup.dsv\n'}
+[29.815539] (odometry) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/odometry/share/odometry/package.dsv\n'}
+[29.815795] (odometry) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/odometry/share/ament_index/resource_index/packages/odometry\n'}
+[29.815977] (odometry) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/odometry/share/odometry/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[29.816104] (odometry) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/odometry/share/odometry/cmake/odometryConfig.cmake\n'}
+[29.816244] (odometry) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/odometry/share/odometry/cmake/odometryConfig-version.cmake\n'}
+[29.816415] (odometry) StdoutLine: {'line': b'-- Installing: /home/leoo/Desktop/project2_ws/install/odometry/share/odometry/package.xml\n'}
+[29.828081] (odometry) CommandEnded: {'returncode': 0}
+[29.841425] (-) TimerEvent: {}
+[29.934910] (odometry) JobEnded: {'identifier': 'odometry', 'rc': 0}
+[29.937067] (-) EventReactorShutdown: {}

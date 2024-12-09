@@ -1,0 +1,3 @@
+[console_scripts]
+project2_teleop_control = project2_control.project2_teleop_control:main
+

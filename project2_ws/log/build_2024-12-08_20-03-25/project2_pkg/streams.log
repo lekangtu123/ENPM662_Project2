@@ -1,0 +1,120 @@
+[0.541s] Invoking command in '/home/leoo/Desktop/project2_ws/build/project2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoo/Desktop/project2_ws/install/robot_arm_control:/home/leoo/Desktop/project2_ws/install/project2_control:/home/leoo/Desktop/project2_ws/install/odometry:/opt/ros/galactic /home/leoo/.local/bin/cmake /home/leoo/Desktop/project2_ws/src/project2_pkg -DCMAKE_INSTALL_PREFIX=/home/leoo/Desktop/project2_ws/install/project2_pkg
+[1.140s] -- The C compiler identification is GNU 9.4.0
+[1.781s] -- The CXX compiler identification is GNU 9.4.0
+[1.818s] -- Detecting C compiler ABI info
+[2.030s] -- Detecting C compiler ABI info - done
+[2.054s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.054s] -- Detecting C compile features
+[2.054s] -- Detecting C compile features - done
+[2.062s] -- Detecting CXX compiler ABI info
+[2.376s] -- Detecting CXX compiler ABI info - done
+[2.399s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.400s] -- Detecting CXX compile features
+[2.400s] -- Detecting CXX compile features - done
+[2.429s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[2.456s] [33mCMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[2.456s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[2.456s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[2.456s]   the cmake_policy command to set the policy and suppress this warning.
+[2.456s] 
+[2.456s] Call Stack (most recent call first):
+[2.456s]   /opt/ros/galactic/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[2.456s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[2.457s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[2.457s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[2.457s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[2.457s]   CMakeLists.txt:9 (find_package)
+[2.457s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.457s] [0m
+[2.534s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3")
+[2.534s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.693s] -- Found rclpy: 1.9.3 (/opt/ros/galactic/share/rclpy/cmake)
+[2.701s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[2.792s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.808s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[2.956s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")
+[2.995s] -- Found FastRTPS: /opt/ros/galactic/include
+[3.112s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.210s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[3.216s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[3.245s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.249s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.338s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.338s] -- Looking for pthread_create in pthreads
+[3.387s] -- Looking for pthread_create in pthreads - not found
+[3.387s] -- Looking for pthread_create in pthread
+[3.453s] -- Looking for pthread_create in pthread - found
+[3.454s] -- Found Threads: TRUE
+[3.689s] -- Found robot_state_publisher: 2.5.3 (/opt/ros/galactic/share/robot_state_publisher/cmake)
+[3.698s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[3.706s] -- Found Eigen3: TRUE (found version "3.3.7")
+[4.285s] -- Found xacro: 2.0.7 (/opt/ros/galactic/share/xacro/cmake)
+[4.290s] -- Found ros2_control: 1.6.0 (/opt/ros/galactic/share/ros2_control/cmake)
+[4.295s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[4.414s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.420s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.422s] -- Added test 'lint_cmake' to check CMake code style
+[4.423s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[4.426s] -- Added test 'xmllint' to check XML markup files
+[4.430s] -- Configuring done (3.7s)
+[4.440s] -- Generating done (0.0s)
+[4.441s] -- Build files have been written to: /home/leoo/Desktop/project2_ws/build/project2_pkg
+[4.463s] Invoked command in '/home/leoo/Desktop/project2_ws/build/project2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoo/Desktop/project2_ws/install/robot_arm_control:/home/leoo/Desktop/project2_ws/install/project2_control:/home/leoo/Desktop/project2_ws/install/odometry:/opt/ros/galactic /home/leoo/.local/bin/cmake /home/leoo/Desktop/project2_ws/src/project2_pkg -DCMAKE_INSTALL_PREFIX=/home/leoo/Desktop/project2_ws/install/project2_pkg
+[4.467s] Invoking command in '/home/leoo/Desktop/project2_ws/build/project2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoo/Desktop/project2_ws/install/robot_arm_control:/home/leoo/Desktop/project2_ws/install/project2_control:/home/leoo/Desktop/project2_ws/install/odometry:/opt/ros/galactic /home/leoo/.local/bin/cmake --build /home/leoo/Desktop/project2_ws/build/project2_pkg -- -j8 -l8
+[4.572s] Invoked command in '/home/leoo/Desktop/project2_ws/build/project2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoo/Desktop/project2_ws/install/robot_arm_control:/home/leoo/Desktop/project2_ws/install/project2_control:/home/leoo/Desktop/project2_ws/install/odometry:/opt/ros/galactic /home/leoo/.local/bin/cmake --build /home/leoo/Desktop/project2_ws/build/project2_pkg -- -j8 -l8
+[4.756s] Invoking command in '/home/leoo/Desktop/project2_ws/build/project2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoo/Desktop/project2_ws/install/robot_arm_control:/home/leoo/Desktop/project2_ws/install/project2_control:/home/leoo/Desktop/project2_ws/install/odometry:/opt/ros/galactic /home/leoo/.local/bin/cmake --install /home/leoo/Desktop/project2_ws/build/project2_pkg
+[4.813s] -- Install configuration: ""
+[4.814s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//urdf
+[4.815s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//urdf/project2_pkg.csv
+[4.815s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//urdf/project2_pkg.urdf.xacro
+[4.815s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//meshes
+[4.816s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//meshes/rrw.STL
+[4.816s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//meshes/link4.STL
+[4.816s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//meshes/flw.STL
+[4.816s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//meshes/link2.STL
+[4.816s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//meshes/link3.STL
+[4.817s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//meshes/chassi.STL
+[4.817s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//meshes/link1.STL
+[4.817s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//meshes/rlw.STL
+[4.817s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//meshes/frw.STL
+[4.817s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//meshes/ef.STL
+[4.818s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//launch
+[4.818s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//launch/gazebo.launch.py
+[4.818s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//launch/debug.launch.py
+[4.818s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//launch/spawn_robot_ros2.launch.py
+[4.818s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//launch/display.launch.py
+[4.819s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//launch/robot_description_publisher.py
+[4.819s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//launch/competition.launch.py
+[4.819s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//worlds
+[4.819s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//worlds/empty_world.world
+[4.820s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//config
+[4.820s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//config/control.yaml
+[4.820s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//competition
+[4.820s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//competition/arena
+[4.821s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//competition/arena/meshes
+[4.821s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//competition/arena/meshes/check_point.STL
+[4.821s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//competition/arena/meshes/track.STL
+[4.822s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//competition/arena/meshes/base_link.STL
+[4.822s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//competition/arena/model.urdf.xacro
+[4.822s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//competition/arena/model.config
+[4.822s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//competition/arena/model.sdf
+[4.822s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//competition/worlds
+[4.822s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg//competition/worlds/competition.world
+[4.823s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/include/project2_pkg
+[4.823s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/lib/project2_pkg/robot_description_publisher.py
+[4.823s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/ament_index/resource_index/package_run_dependencies/project2_pkg
+[4.823s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/ament_index/resource_index/parent_prefix_path/project2_pkg
+[4.823s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg/environment/ament_prefix_path.sh
+[4.823s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg/environment/ament_prefix_path.dsv
+[4.824s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg/environment/path.sh
+[4.824s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg/environment/path.dsv
+[4.824s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg/local_setup.bash
+[4.824s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg/local_setup.sh
+[4.824s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg/local_setup.zsh
+[4.824s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg/local_setup.dsv
+[4.825s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg/package.dsv
+[4.825s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/ament_index/resource_index/packages/project2_pkg
+[4.825s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg/cmake/project2_pkgConfig.cmake
+[4.825s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg/cmake/project2_pkgConfig-version.cmake
+[4.825s] -- Installing: /home/leoo/Desktop/project2_ws/install/project2_pkg/share/project2_pkg/package.xml
+[4.836s] Invoked command in '/home/leoo/Desktop/project2_ws/build/project2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoo/Desktop/project2_ws/install/robot_arm_control:/home/leoo/Desktop/project2_ws/install/project2_control:/home/leoo/Desktop/project2_ws/install/odometry:/opt/ros/galactic /home/leoo/.local/bin/cmake --install /home/leoo/Desktop/project2_ws/build/project2_pkg

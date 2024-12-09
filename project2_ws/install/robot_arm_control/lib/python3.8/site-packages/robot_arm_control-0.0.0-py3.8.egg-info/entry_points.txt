@@ -1,0 +1,5 @@
+[console_scripts]
+arm_inv_kine_control = robot_arm_control.arm_inv_kine_control:main
+arm_teleop_control = robot_arm_control.arm_teleop_control:main
+vacuum_gripper = robot_arm_control.vacuum_gripper:main
+
