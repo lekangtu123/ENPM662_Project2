@@ -1,9 +1,0 @@
-/home/leoo/Desktop/project2_ws/build/project2_pkg/CMakeFiles/uninstall.dir
-/home/leoo/Desktop/project2_ws/build/project2_pkg/CMakeFiles/project2_pkg_uninstall.dir
-/home/leoo/Desktop/project2_ws/build/project2_pkg/CMakeFiles/test.dir
-/home/leoo/Desktop/project2_ws/build/project2_pkg/CMakeFiles/edit_cache.dir
-/home/leoo/Desktop/project2_ws/build/project2_pkg/CMakeFiles/rebuild_cache.dir
-/home/leoo/Desktop/project2_ws/build/project2_pkg/CMakeFiles/list_install_components.dir
-/home/leoo/Desktop/project2_ws/build/project2_pkg/CMakeFiles/install.dir
-/home/leoo/Desktop/project2_ws/build/project2_pkg/CMakeFiles/install/local.dir
-/home/leoo/Desktop/project2_ws/build/project2_pkg/CMakeFiles/install/strip.dir

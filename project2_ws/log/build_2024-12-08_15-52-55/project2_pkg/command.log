@@ -1,4 +1,0 @@
-Invoking command in '/home/leoo/Desktop/project2_ws/build/project2_pkg': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/leoo/.local/bin/cmake --build /home/leoo/Desktop/project2_ws/build/project2_pkg -- -j8 -l8
-Invoked command in '/home/leoo/Desktop/project2_ws/build/project2_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/leoo/.local/bin/cmake --build /home/leoo/Desktop/project2_ws/build/project2_pkg -- -j8 -l8
-Invoking command in '/home/leoo/Desktop/project2_ws/build/project2_pkg': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/leoo/.local/bin/cmake --install /home/leoo/Desktop/project2_ws/build/project2_pkg
-Invoked command in '/home/leoo/Desktop/project2_ws/build/project2_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/leoo/.local/bin/cmake --install /home/leoo/Desktop/project2_ws/build/project2_pkg
