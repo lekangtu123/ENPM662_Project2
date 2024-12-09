@@ -1,0 +1,219 @@
+[0.026s] Invoking command in '/home/leoo/Desktop/project2_ws/build/odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoo/Desktop/project2_ws/install/robot_arm_control:/home/leoo/Desktop/project2_ws/install/project2_control:/opt/ros/galactic /home/leoo/.local/bin/cmake /home/leoo/Desktop/project2_ws/src/odometry -DCMAKE_INSTALL_PREFIX=/home/leoo/Desktop/project2_ws/install/odometry
+[0.340s] -- The C compiler identification is GNU 9.4.0
+[0.340s] -- The CXX compiler identification is GNU 9.4.0
+[0.343s] -- Detecting C compiler ABI info
+[0.416s] -- Detecting C compiler ABI info - done
+[0.438s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.440s] -- Detecting C compile features
+[0.440s] -- Detecting C compile features - done
+[0.453s] -- Detecting CXX compiler ABI info
+[0.637s] -- Detecting CXX compiler ABI info - done
+[0.677s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.677s] -- Detecting CXX compile features
+[0.678s] -- Detecting CXX compile features - done
+[0.688s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.696s] [33mCMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.696s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.696s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.696s]   the cmake_policy command to set the policy and suppress this warning.
+[0.696s] 
+[0.696s] Call Stack (most recent call first):
+[0.696s]   /opt/ros/galactic/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.696s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.696s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.696s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.696s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.696s]   CMakeLists.txt:9 (find_package)
+[0.696s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.696s] [0m
+[0.731s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3")
+[0.731s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.843s] -- Found tf2: 0.17.5 (/opt/ros/galactic/share/tf2/cmake)
+[0.907s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.917s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.052s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")
+[1.095s] -- Found FastRTPS: /opt/ros/galactic/include
+[1.210s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.418s] -- Found tf2_ros: 0.17.5 (/opt/ros/galactic/share/tf2_ros/cmake)
+[1.733s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.742s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.765s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.767s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.880s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.880s] -- Looking for pthread_create in pthreads
+[1.967s] -- Looking for pthread_create in pthreads - not found
+[1.967s] -- Looking for pthread_create in pthread
+[2.071s] -- Looking for pthread_create in pthread - found
+[2.071s] -- Found Threads: TRUE
+[2.778s] [33mCMake Warning (dev) at /home/leoo/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake:441 (message):
+[2.778s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[2.778s]   does not match the name of the calling package (gazebo).  This can lead to
+[2.778s]   problems in calling code that expects `find_package` result variables
+[2.778s]   (e.g., `_FOUND`) to follow a certain pattern.
+[2.778s] Call Stack (most recent call first):
+[2.778s]   /home/leoo/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.30/Modules/FindPkgConfig.cmake:114 (find_package_handle_standard_args)
+[2.778s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[2.778s]   CMakeLists.txt:12 (find_package)
+[2.778s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.778s] [0m
+[2.778s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1")
+[2.781s] -- Checking for module 'bullet>=2.82'
+[2.828s] --   Found bullet, version 2.88
+[2.965s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0")
+[3.033s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2")
+[3.107s] -- Found assimp: /usr/include (found version "5.0.0")
+[3.109s] [33mCMake Warning (dev) at /usr/share/dart/cmake/DARTFindBoost.cmake:24 (find_package):
+[3.109s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[3.109s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[3.109s]   set the policy and suppress this warning.
+[3.109s] 
+[3.110s] Call Stack (most recent call first):
+[3.110s]   /usr/share/dart/cmake/dart_dartComponent.cmake:6 (include)
+[3.110s]   /usr/share/dart/cmake/DARTConfig.cmake:63 (include)
+[3.110s]   /usr/share/dart/cmake/DARTConfig.cmake:123 (dart_traverse_components)
+[3.110s]   /usr/share/dart/cmake/DARTConfig.cmake:171 (dart_package_init)
+[3.110s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:166 (find_package)
+[3.110s]   CMakeLists.txt:12 (find_package)
+[3.110s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.110s] [0m
+[3.154s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart
+[3.170s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:197 (find_package):
+[3.170s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[3.170s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[3.170s]   set the policy and suppress this warning.
+[3.170s] 
+[3.170s] Call Stack (most recent call first):
+[3.170s]   CMakeLists.txt:12 (find_package)
+[3.170s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.170s] [0m
+[3.199s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time
+[3.254s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1")
+[3.262s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.275s] -- Searching for dependencies of ignition-math6
+[3.278s] -- Looking for OGRE...
+[3.279s] -- OGRE_PREFIX_WATCH changed.
+[3.286s] -- Checking for module 'OGRE'
+[3.310s] --   Found OGRE, version 1.9.0
+[3.356s] -- Found Ogre Ghadamon (1.9.0)
+[3.373s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[3.373s] [33mCMake Warning (dev) at /usr/share/OGRE/cmake/modules/FindOGRE.cmake:309 (find_package):
+[3.373s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[3.373s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[3.373s]   set the policy and suppress this warning.
+[3.373s] 
+[3.374s] Call Stack (most recent call first):
+[3.374s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:213 (find_package)
+[3.374s]   CMakeLists.txt:12 (find_package)
+[3.374s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.374s] [0m
+[3.381s] [33mCMake Warning (dev) at /usr/share/OGRE/cmake/modules/FindOGRE.cmake:318 (find_package):
+[3.381s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[3.381s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[3.381s]   set the policy and suppress this warning.
+[3.381s] 
+[3.381s] Call Stack (most recent call first):
+[3.381s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:213 (find_package)
+[3.381s]   CMakeLists.txt:12 (find_package)
+[3.381s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.381s] [0m
+[3.388s] -- Looking for OGRE_Paging...
+[3.405s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[3.406s] -- Looking for OGRE_Terrain...
+[3.443s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[3.444s] -- Looking for OGRE_Property...
+[3.458s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[3.459s] -- Looking for OGRE_RTShaderSystem...
+[3.474s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[3.475s] -- Looking for OGRE_Volume...
+[3.493s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[3.493s] -- Looking for OGRE_Overlay...
+[3.511s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[3.820s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.825s] -- Looking for ignition-transport8 -- found version 8.3.0
+[3.825s] -- Searching for dependencies of ignition-transport8
+[3.851s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3")
+[3.859s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[3.863s] -- Checking for module 'libzmq >= 4'
+[3.893s] --   Found libzmq, version 4.3.2
+[3.942s] -- Found ZeroMQ: TRUE (Required is at least version "4")
+[3.948s] -- Checking for module 'uuid'
+[3.965s] --   Found uuid, version 2.34.0
+[4.014s] -- Found UUID: TRUE
+[4.017s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[4.017s] -- Searching for dependencies of ignition-msgs5
+[4.036s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.055s] -- Checking for module 'tinyxml2'
+[4.112s] --   Found tinyxml2, version 6.2.0
+[4.176s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[4.176s] -- Looking for ignition-common3 -- found version 3.14.2
+[4.176s] -- Searching for dependencies of ignition-common3
+[4.176s] -- Looking for dlfcn.h - found
+[4.176s] -- Looking for libdl - found
+[4.181s] -- Found DL: TRUE
+[4.207s] -- Searching for <ignition-common3> component [graphics]
+[4.207s] -- Looking for ignition-common3-graphics -- found version 3.14.2
+[4.207s] -- Searching for dependencies of ignition-common3-graphics
+[4.207s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.207s] -- Looking for ignition-fuel_tools4 -- found version 4.6.0
+[4.207s] -- Searching for dependencies of ignition-fuel_tools4
+[4.871s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")
+[4.888s] -- Checking for module 'jsoncpp'
+[4.924s] --   Found jsoncpp, version 1.7.4
+[5.041s] -- Found JSONCPP: TRUE
+[5.095s] -- Checking for module 'libzip'
+[5.167s] --   Found libzip, version 1.5.1
+[5.303s] -- Found ZIP: TRUE
+[5.304s] -- Looking for ignition-common3 -- found version 3.14.2
+[5.315s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.315s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[5.334s] -- Found gazebo_ros: 3.5.2 (/opt/ros/galactic/share/gazebo_ros/cmake)
+[5.353s] -- Gazebo version: 11.11
+[5.373s] -- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)
+[5.520s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[5.596s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.597s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.598s] -- Configured cppcheck include dirs: /home/leoo/Desktop/project2_ws/src/odometry/include
+[5.598s] -- Configured cppcheck exclude dirs and/or files: 
+[5.598s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.598s] -- Configured cpplint exclude dirs and/or files: 
+[5.600s] -- Added test 'lint_cmake' to check CMake code style
+[5.601s] -- Added test 'uncrustify' to check C / C++ code style
+[5.601s] -- Configured uncrustify additional arguments: 
+[5.602s] -- Added test 'xmllint' to check XML markup files
+[5.606s] -- Configuring done (5.5s)
+[5.671s] -- Generating done (0.1s)
+[5.672s] -- Build files have been written to: /home/leoo/Desktop/project2_ws/build/odometry
+[5.754s] Invoked command in '/home/leoo/Desktop/project2_ws/build/odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoo/Desktop/project2_ws/install/robot_arm_control:/home/leoo/Desktop/project2_ws/install/project2_control:/opt/ros/galactic /home/leoo/.local/bin/cmake /home/leoo/Desktop/project2_ws/src/odometry -DCMAKE_INSTALL_PREFIX=/home/leoo/Desktop/project2_ws/install/odometry
+[5.755s] Invoking command in '/home/leoo/Desktop/project2_ws/build/odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoo/Desktop/project2_ws/install/robot_arm_control:/home/leoo/Desktop/project2_ws/install/project2_control:/opt/ros/galactic /home/leoo/.local/bin/cmake --build /home/leoo/Desktop/project2_ws/build/odometry -- -j2 -l2
+[6.033s] [ 50%] [32mBuilding CXX object CMakeFiles/odometry_plugin.dir/src/odometry_plugin.cpp.o[0m
+[19.222s] [100%] [32m[1mLinking CXX shared library libodometry_plugin.so[0m
+[20.033s] [100%] Built target odometry_plugin
+[20.053s] Invoked command in '/home/leoo/Desktop/project2_ws/build/odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoo/Desktop/project2_ws/install/robot_arm_control:/home/leoo/Desktop/project2_ws/install/project2_control:/opt/ros/galactic /home/leoo/.local/bin/cmake --build /home/leoo/Desktop/project2_ws/build/odometry -- -j2 -l2
+[20.137s] Invoking command in '/home/leoo/Desktop/project2_ws/build/odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoo/Desktop/project2_ws/install/robot_arm_control:/home/leoo/Desktop/project2_ws/install/project2_control:/opt/ros/galactic /home/leoo/.local/bin/cmake --install /home/leoo/Desktop/project2_ws/build/odometry
+[20.208s] -- Install configuration: ""
+[20.208s] -- Installing: /home/leoo/Desktop/project2_ws/install/odometry/include
+[20.208s] -- Installing: /home/leoo/Desktop/project2_ws/install/odometry/include/odometry
+[20.208s] -- Installing: /home/leoo/Desktop/project2_ws/install/odometry/include/odometry/odometry_plugin.hpp
+[20.209s] -- Installing: /home/leoo/Desktop/project2_ws/install/odometry/share/odometry//src
+[20.209s] -- Installing: /home/leoo/Desktop/project2_ws/install/odometry/share/odometry//src/odometry_plugin.cpp
+[20.210s] -- Installing: /home/leoo/Desktop/project2_ws/install/odometry/share/odometry/environment/library_path.sh
+[20.210s] -- Installing: /home/leoo/Desktop/project2_ws/install/odometry/share/odometry/environment/library_path.dsv
+[20.210s] -- Installing: /home/leoo/Desktop/project2_ws/install/odometry/lib/libodometry_plugin.so
+[20.214s] -- Set non-toolchain portion of runtime path of "/home/leoo/Desktop/project2_ws/install/odometry/lib/libodometry_plugin.so" to ""
+[20.214s] -- Installing: /home/leoo/Desktop/project2_ws/install/odometry/share/ament_index/resource_index/package_run_dependencies/odometry
+[20.215s] -- Installing: /home/leoo/Desktop/project2_ws/install/odometry/share/ament_index/resource_index/parent_prefix_path/odometry
+[20.215s] -- Installing: /home/leoo/Desktop/project2_ws/install/odometry/share/odometry/environment/ament_prefix_path.sh
+[20.215s] -- Installing: /home/leoo/Desktop/project2_ws/install/odometry/share/odometry/environment/ament_prefix_path.dsv
+[20.216s] -- Installing: /home/leoo/Desktop/project2_ws/install/odometry/share/odometry/environment/path.sh
+[20.216s] -- Installing: /home/leoo/Desktop/project2_ws/install/odometry/share/odometry/environment/path.dsv
+[20.216s] -- Installing: /home/leoo/Desktop/project2_ws/install/odometry/share/odometry/local_setup.bash
+[20.217s] -- Installing: /home/leoo/Desktop/project2_ws/install/odometry/share/odometry/local_setup.sh
+[20.217s] -- Installing: /home/leoo/Desktop/project2_ws/install/odometry/share/odometry/local_setup.zsh
+[20.217s] -- Installing: /home/leoo/Desktop/project2_ws/install/odometry/share/odometry/local_setup.dsv
+[20.217s] -- Installing: /home/leoo/Desktop/project2_ws/install/odometry/share/odometry/package.dsv
+[20.218s] -- Installing: /home/leoo/Desktop/project2_ws/install/odometry/share/ament_index/resource_index/packages/odometry
+[20.218s] -- Installing: /home/leoo/Desktop/project2_ws/install/odometry/share/odometry/cmake/ament_cmake_export_libraries-extras.cmake
+[20.219s] -- Installing: /home/leoo/Desktop/project2_ws/install/odometry/share/odometry/cmake/odometryConfig.cmake
+[20.219s] -- Installing: /home/leoo/Desktop/project2_ws/install/odometry/share/odometry/cmake/odometryConfig-version.cmake
+[20.219s] -- Installing: /home/leoo/Desktop/project2_ws/install/odometry/share/odometry/package.xml
+[20.230s] Invoked command in '/home/leoo/Desktop/project2_ws/build/odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoo/Desktop/project2_ws/install/robot_arm_control:/home/leoo/Desktop/project2_ws/install/project2_control:/opt/ros/galactic /home/leoo/.local/bin/cmake --install /home/leoo/Desktop/project2_ws/build/odometry

@@ -1,0 +1,23 @@
+[1.224s] Invoking command in '/home/leoo/Desktop/project2_ws/src/robot_arm_control': PYTHONPATH=/home/leoo/Desktop/project2_ws/build/robot_arm_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leoo/Desktop/project2_ws/install/robot_arm_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_arm_control build --build-base /home/leoo/Desktop/project2_ws/build/robot_arm_control/build install --record /home/leoo/Desktop/project2_ws/build/robot_arm_control/install.log --single-version-externally-managed install_data
+[1.458s] running egg_info
+[1.459s] writing ../../build/robot_arm_control/robot_arm_control.egg-info/PKG-INFO
+[1.460s] writing dependency_links to ../../build/robot_arm_control/robot_arm_control.egg-info/dependency_links.txt
+[1.461s] writing entry points to ../../build/robot_arm_control/robot_arm_control.egg-info/entry_points.txt
+[1.461s] writing requirements to ../../build/robot_arm_control/robot_arm_control.egg-info/requires.txt
+[1.462s] writing top-level names to ../../build/robot_arm_control/robot_arm_control.egg-info/top_level.txt
+[1.503s] reading manifest file '../../build/robot_arm_control/robot_arm_control.egg-info/SOURCES.txt'
+[1.504s] writing manifest file '../../build/robot_arm_control/robot_arm_control.egg-info/SOURCES.txt'
+[1.505s] running build
+[1.505s] running build_py
+[1.506s] running install
+[1.507s] running install_lib
+[1.510s] running install_data
+[1.510s] running install_egg_info
+[1.513s] removing '/home/leoo/Desktop/project2_ws/install/robot_arm_control/lib/python3.8/site-packages/robot_arm_control-0.0.0-py3.8.egg-info' (and everything under it)
+[1.514s] Copying ../../build/robot_arm_control/robot_arm_control.egg-info to /home/leoo/Desktop/project2_ws/install/robot_arm_control/lib/python3.8/site-packages/robot_arm_control-0.0.0-py3.8.egg-info
+[1.515s] running install_scripts
+[1.544s] Installing arm_inv_kine_control script to /home/leoo/Desktop/project2_ws/install/robot_arm_control/lib/robot_arm_control
+[1.545s] Installing arm_teleop_control script to /home/leoo/Desktop/project2_ws/install/robot_arm_control/lib/robot_arm_control
+[1.546s] Installing vacuum_gripper script to /home/leoo/Desktop/project2_ws/install/robot_arm_control/lib/robot_arm_control
+[1.549s] writing list of installed files to '/home/leoo/Desktop/project2_ws/build/robot_arm_control/install.log'
+[1.578s] Invoked command in '/home/leoo/Desktop/project2_ws/src/robot_arm_control' returned '0': PYTHONPATH=/home/leoo/Desktop/project2_ws/build/robot_arm_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leoo/Desktop/project2_ws/install/robot_arm_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_arm_control build --build-base /home/leoo/Desktop/project2_ws/build/robot_arm_control/build install --record /home/leoo/Desktop/project2_ws/build/robot_arm_control/install.log --single-version-externally-managed install_data

@@ -1,0 +1,4 @@
+Invoking command in '/home/leoo/Desktop/project2_ws/build/odometry': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/leoo/.local/bin/cmake --build /home/leoo/Desktop/project2_ws/build/odometry -- -j2 -l2
+Invoked command in '/home/leoo/Desktop/project2_ws/build/odometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/leoo/.local/bin/cmake --build /home/leoo/Desktop/project2_ws/build/odometry -- -j2 -l2
+Invoking command in '/home/leoo/Desktop/project2_ws/build/odometry': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/leoo/.local/bin/cmake --install /home/leoo/Desktop/project2_ws/build/odometry
+Invoked command in '/home/leoo/Desktop/project2_ws/build/odometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/leoo/.local/bin/cmake --install /home/leoo/Desktop/project2_ws/build/odometry
