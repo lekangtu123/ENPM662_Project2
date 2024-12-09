@@ -4,7 +4,7 @@
 
 2. Build the workspace:
    
-   colcon build.
+colcon build.
 
 4. Source the evironment:
 
